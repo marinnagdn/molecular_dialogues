@@ -1,0 +1,128 @@
+
+--------- Fe2+ mitochondria (M_fe2_e) ----------
+from :
+* Quinon:iron(III) oxidoreductase (R_FERIRDe)
+	
+	Iron (Fe3+) + Ubiquinol -> Fe2+ mitochondriaH+ + Ubiquinone
+
+to :
+* Uptake of food iron by DMT1 transporter (R_FE2DMT1)
+	
+	Fe2+ mitochondriaH+ -> Fe2+ mitochondriaH+
+
+--------- H+ (M_h_e) ----------
+from :
+* Quinon:iron(III) oxidoreductase (R_FERIRDe)
+	
+	Iron (Fe3+) + Ubiquinol -> Fe2+ mitochondriaH+ + Ubiquinone
+
+to :
+* Uptake of food iron by DMT1 transporter (R_FE2DMT1)
+	
+	Fe2+ mitochondriaH+ -> Fe2+ mitochondriaH+
+
+--------- L-Lysine (M_lys__L_e) ----------
+from :
+* LYSt3r (R_LYSt3r)
+	
+	H+ + L-Lysine -> L-Lysine + H+
+
+to :
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r1997)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2000)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2001)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2003)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2004)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2005)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2007)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* LYStiDF (R_LYSt5r)
+	
+	L-Lysine -> L-Lysine
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r1992)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r1993)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r1994)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r1995)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r1996)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r1998)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r1999)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2002)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2006)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+
+--------- H+ (M_h_e) ----------
+from :
+* Cytochrome oxidase bd (ubiquinol-8: 2 protons) (R_CYTBD)
+	
+	H+O2 O2Ubiquinol-8 -> H+ + H2O H2OUbiquinone-8
+* Cytochrome oxidase bo3 (ubiquinol-8: 2.5 protons) (R_CYTBO3)
+	
+	H+O2 O2Ubiquinol-8 -> H+ + H2O H2OUbiquinone-8
+* Formate dehydrogenase (quinone-8: 2 protons) (R_FDH2)
+	
+	FormateH+Ubiquinone-8 -> H+ + CO2 CO2Ubiquinol-8
+* Formate Dehydrogenase (menaquinone-8: 2 protons) (R_FDH3)
+	
+	FormateH+Menaquinone 8 -> H+ + CO2 CO2Menaquinol 8
+* Hydrogenase (ubiquinone-8: 2 protons) (R_HYD1)
+	
+	H+H2Ubiquinone-8 -> H+ + Ubiquinol-8
+* Hydrogenase (menaquinone8: 2 protons) (R_HYD2)
+	
+	H+H2Menaquinone 8 -> H+ + Menaquinol 8
+* Hydrogenase (Demethylmenaquinone-8: 2 protons) (R_HYD3)
+	
+	2-Demethylmenaquinone 8H+H2 -> H+ + 2-Demethylmenaquinol 8
+* NADH dehydrogenase (ubiquinone-8 &amp; 3 protons) (R_NADH16)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone-8 -> H+ + Nicotinamide adenine dinucleotideUbiquinol-8
+* NADH dehydrogenase (ubiquinone-8 &amp; 3.5 protons) (R_NADH6)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone-8 -> H+ + Nicotinamide adenine dinucleotideUbiquinol-8
+* NADH dehydrogenase (menaquinone-8 &amp; 2 protons) (R_NADH7)
+	
+	H+Menaquinone 8Nicotinamide adenine dinucleotide - reduced -> H+ + Menaquinol 8Nicotinamide adenine dinucleotide
+* NADH dehydrogenase (demethylmenaquinone-8 &amp; 2.8 protons) (R_NADH8)
+	
+	2-Demethylmenaquinone 8H+Nicotinamide adenine dinucleotide - reduced -> H+ + 2-Demethylmenaquinol 8Nicotinamide adenine dinucleotide
+* Nitrate reductase (Ubiquinol-8) (R_NO3R1)
+	
+	H+NitrateUbiquinol-8 -> H+ + H2O H2ONitriteUbiquinone-8
+* Nitrate reductase (Menaquinol-8) (R_NO3R2)
+	
+	H+Menaquinol 8Nitrate -> H+ + H2O H2OMenaquinone 8Nitrite
+
+to :
+* L-carnitine outward transport (H+ antiport) (R_CRNtHa)
+	
+	H+ + L-Carnitine -> L-Carnitine + H+

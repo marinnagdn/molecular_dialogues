@@ -127,12 +127,9 @@ def get_dict_reactions(xml_file, metabo_bacteria):
 
 				# dict_detailed_reactions[reaction_name] = [[metabo_bacteria[x] for x in list(dict_extracellular_M.keys())],  [metabo_bacteria[x] for x in list(dict_cytosol_M.keys())], [metabo_bacteria[x] for x in list(dict_periplasm_M.keys())]]
 
-				
-				if len(list_extracellular_M)!=0:
+				dict_reactions[reaction_id] = list_extracellular_M
 
-					dict_reactions[reaction_id] = list_extracellular_M
-
-					dict_detailed_reactions[reaction_name] = [metabo_bacteria[x] for x in list_extracellular_M]
+				dict_detailed_reactions[reaction_name] = [metabo_bacteria[x] for x in list_extracellular_M]
 
 				description_reaction = [] #erase description
 				has_found_reaction = False
@@ -326,12 +323,9 @@ def get_dict_reactions_homo_sapiens(xml_file, metabo_bacteria,reactions_bacteria
 
 				# dict_detailed_reactions[reaction_name] = [[metabo_bacteria[x] for x in list(dict_extracellular_M.keys())],  [metabo_bacteria[x] for x in list(dict_cytosol_M.keys())], [metabo_bacteria[x] for x in list(dict_periplasm_M.keys())]]
 
+				dict_reactions[reaction_id] = list_extracellular_M
 
-				if len(list_extracellular_M)!=0:
-
-					dict_reactions[reaction_id] = list_extracellular_M
-
-					dict_detailed_reactions[reaction_name] = [metabo_bacteria[x] for x in list_extracellular_M]
+				dict_detailed_reactions[reaction_name] = [metabo_bacteria[x] for x in list_extracellular_M]
 
 				description_reaction = [] #erase description
 				has_found_reaction = False
@@ -342,6 +336,9 @@ def get_dict_reactions_homo_sapiens(xml_file, metabo_bacteria,reactions_bacteria
 				list_cytosol_M = []
 
 			else:
+
+				if reaction_name == "Potassium transport out via proton antiport":
+						print("Le potassium n'est pas réversible !!!")
 
 				for line3 in description_reaction:
 
@@ -453,42 +450,40 @@ def get_dict_reactions_homo_sapiens(xml_file, metabo_bacteria,reactions_bacteria
 
 #***************************************
 
-def pretty_ONE_reaction(dr, DICT_reactions, id_reaction):
+def pretty_ONE_reaction(dr, dict_detailed_reactions, id_reaction):
 
 	one_reaction = ""
 
 	name_reaction = dr[id_reaction][0] # [0] in case of two names for same id (list of names for a id)
 
-	# print(name_reaction)
+	if dict_detailed_reactions[name_reaction]!=[]:
 
-	# print(DICT_reactions[name_reaction])
+		reactants = dict_detailed_reactions[name_reaction][0]
 
-	reactants = DICT_reactions[name_reaction][0]
+		reactants = [x for x in reactants if x != []] #remove empty lists
 
-	reactants = [x for x in reactants if x != []] #remove empty lists
+		nb_reactants = len(reactants)
+		cpt = 1
+		for r in  reactants:
+			if cpt < nb_reactants:
+				one_reaction += "".join(r) + " + "
+			else:
+				one_reaction += "".join(r)
+			cpt += 1
 
-	nb_reactants = len(reactants)
-	cpt = 1
-	for r in  reactants:
-		if cpt < nb_reactants:
-			one_reaction += "".join(r) + " + "
-		else:
-			one_reaction += "".join(r)
-		cpt += 1
+		one_reaction += " -> "
 
-	one_reaction += " -> "
+		products = dict_detailed_reactions[name_reaction][1]
+		products = [x for x in products if x != []] #remove empty lists
 
-	products = DICT_reactions[name_reaction][1]
-	products = [x for x in products if x != []] #remove empty lists
-
-	nb_products = len(products)
-	cpt = 1
-	for p in  products:
-		if cpt < nb_products:
-			one_reaction += "".join(p) + " + "
-		else:
-			one_reaction += "".join(p)
-		cpt += 1
+		nb_products = len(products)
+		cpt = 1
+		for p in  products:
+			if cpt < nb_products:
+				one_reaction += "".join(p) + " + "
+			else:
+				one_reaction += "".join(p)
+			cpt += 1
 
 	return one_reaction
 
@@ -521,7 +516,7 @@ def in_and_out_metabolites(DICT_reactions):
 
 #************************************************
 
-def save_notReversibleReactions_file(d, dm, dr, drdetailed1, drdetailed2, output):
+def save_notReversibleReactions_file(d, dm, dr, drdetailed, output):
 
 	f = open(output,"w")
 
@@ -543,7 +538,7 @@ def save_notReversibleReactions_file(d, dm, dr, drdetailed1, drdetailed2, output
 					f.write("* "+"".join(dr[r])+" ("+r+")\n")
 					f.write("\t")
 
-					reaction = pretty_ONE_reaction(dr,drdetailed1,r)
+					reaction = pretty_ONE_reaction(dr,drdetailed,r)
 					f.write("\n\t"+reaction+"\n")
 
 
@@ -552,7 +547,7 @@ def save_notReversibleReactions_file(d, dm, dr, drdetailed1, drdetailed2, output
 				for r in reactions[1]:
 					f.write("* "+"".join(dr[r])+" ("+r+")\n")
 					f.write("\t")
-					reaction = pretty_ONE_reaction(dr,drdetailed2,r)
+					reaction = pretty_ONE_reaction(dr,drdetailed,r)
 					f.write("\n\t"+reaction+"\n")
 
 	f.close()
@@ -620,6 +615,13 @@ reactions_bacterias = make_dict_reactions(sys.argv[1],human_reactions)
 dict_reactions_bacteria1, dict_detailed_reactions_bacteria1 = get_dict_reactions(sys.argv[1],metabo_bacterias)
 
 dict_reactions_bacteria2, dict_detailed_reactions_bacteria2 = get_dict_reactions_homo_sapiens(sys.argv[2],metabo_bacterias,reactions_bacterias)
+
+
+#merge two dictionaries
+dict_detailed_reactions = {}
+for key in set().union(dict_detailed_reactions_bacteria1, dict_detailed_reactions_bacteria2):
+    if key in dict_detailed_reactions_bacteria1: dict_detailed_reactions.setdefault(key, []).extend(dict_detailed_reactions_bacteria1[key])
+    if key in dict_detailed_reactions_bacteria2: dict_detailed_reactions.setdefault(key, []).extend(dict_detailed_reactions_bacteria2[key])
 
 #dictionnaire : id réaction : id métabolites entrants et sortants
 dict_in_bacteria1,dict_out_bacteria1= in_and_out_metabolites(dict_reactions_bacteria1)
@@ -702,9 +704,9 @@ if bacteria1_to_bacteria2 != set() and bacteria2_to_bacteria1 != set():
 	# print("ICI",dict_detailed_reactions_bacteria1["Postulated transport reaction"])
 	# print("LA",dict_detailed_reactions_bacteria2["Postulated transport reaction"])
 
-	save_notReversibleReactions_file(dict_bacteria1_to_bacteria2, metabo_bacterias, reactions_bacterias,dict_detailed_reactions_bacteria1,dict_detailed_reactions_bacteria2, output1)
+	save_notReversibleReactions_file(dict_bacteria1_to_bacteria2, metabo_bacterias, reactions_bacterias,dict_detailed_reactions,output1)
 
-	save_notReversibleReactions_file(dict_bacteria2_to_bacteria1, metabo_bacterias, reactions_bacterias,dict_detailed_reactions_bacteria2,dict_detailed_reactions_bacteria1,output2)
+	save_notReversibleReactions_file(dict_bacteria2_to_bacteria1, metabo_bacterias, reactions_bacterias,dict_detailed_reactions,output2)
 
 ###Reversible reactions
 

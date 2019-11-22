@@ -1,0 +1,36 @@
+
+--------- Fe2+ mitochondria (M_fe2_e) ----------
+from :
+* Quinon:iron(III) oxidoreductase (R_FERIRDe)
+	
+	Iron (Fe3+) + Ubiquinol -> Fe2+ mitochondriaH+ + Ubiquinone
+
+to :
+* Uptake of food iron by DMT1 transporter (R_FE2DMT1)
+	
+	Fe2+ mitochondriaH+ -> Fe2+ mitochondriaH+
+
+--------- H+ (M_h_e) ----------
+from :
+* Quinon:iron(III) oxidoreductase (R_FERIRDe)
+	
+	Iron (Fe3+) + Ubiquinol -> Fe2+ mitochondriaH+ + Ubiquinone
+
+to :
+* Uptake of food iron by DMT1 transporter (R_FE2DMT1)
+	
+	Fe2+ mitochondriaH+ -> Fe2+ mitochondriaH+
+
+--------- H+ (M_h_e) ----------
+from :
+* NADH dehydrogenase (R_NADHDH)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone -> H+ + Nicotinamide adenine dinucleotideUbiquinol
+* Nitrate reductase (Menaquinol-8) (R_NO3R2)
+	
+	H+Menaquinol 8Nitrate -> H+ + H2O H2OMenaquinone 8Nitrite
+
+to :
+* L-carnitine outward transport (H+ antiport) (R_CRNtHa)
+	
+	H+ + L-Carnitine -> L-Carnitine + H+

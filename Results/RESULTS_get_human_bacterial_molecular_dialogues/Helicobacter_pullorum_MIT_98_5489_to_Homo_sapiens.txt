@@ -1,37 +1,26 @@
 
 --------- H+ (M_h_e) ----------
 from :
-* CYO1a (R_CYO1a)
+* Cytochrome oxidase bd (ubiquinol-8: 2 protons) (R_CYTBD)
 	
-	H+Ferricytochrome c C42H52FeN8O6S2Ubiquinol -> H+ + Ferrocytochrome c C42H53FeN8O6S2Ubiquinone
-* Menaquinol oxidase  71 protons  (R_CYTB_B2)
+	H+O2 O2Ubiquinol-8 -> H+ + H2O H2OUbiquinone-8
+* Formate dehydrogenase (quinone-8: 2 protons) (R_FDH2)
 	
-	H+O2 O2Menaquinol 7 C46H66O2 -> H+ + H2O H2OMenaquinone 7 C46H64O2
-* Nitrate reductase (Ubiquinol-8) (R_NO3R1)
+	FormateH+Ubiquinone-8 -> H+ + CO2 CO2Ubiquinol-8
+* HYDA1 (R_HYDA1)
 	
-	H+NitrateUbiquinol-8 -> H+ + H2O H2ONitriteUbiquinone-8
-* Nitrate reductase (Menaquinol-8) (R_NO3R2)
+	H2 + H+Menaquinone 6 -> H+ + Menaquinol 6
+* NDH 1 (R_NDH_1)
 	
-	H+Menaquinol 8Nitrate -> H+ + H2O H2OMenaquinone 8Nitrite
+	H+Nicotinamide adenine dinucleotide phosphate - reducedMenaquinone 6 -> H+ + Nicotinamide adenine dinucleotide phosphateMenaquinol 6
+* Nitrate reductase (R_NTR3B)
+	
+	H+NitrateMenaquinol 7 C46H66O2 -> H+ + H2O H2ONitriteMenaquinone 7 C46H64O2
 
 to :
 * L-carnitine outward transport (H+ antiport) (R_CRNtHa)
 	
 	H+ + L-Carnitine -> L-Carnitine + H+
-
---------- Potassium (M_k_e) ----------
-from :
-* Potassium transport out via proton antiportKt3r (R_Kt3r)
-	
-	
-
-to :
-* H+/K+ gastric/non-gastric P-ATPase and ABC ATPase (R_HKt)
-	
-	Potassium + ATP C10H12N5O13P3H2O H2O -> H+ + ADP C10H12N5O10P2PotassiumPhosphate
-* Na+/K+ Exchanging ATPase (R_NaKt_1)
-	
-	Potassium + ATP C10H12N5O13P3H2O H2OSodium -> Sodium + ADP C10H12N5O10P2H+PotassiumPhosphate
 
 --------- L-Lysine (M_lys__L_e) ----------
 from :
@@ -61,7 +50,7 @@ to :
 * Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2007)
 	
 	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
-* LYStiDFLYSt5r (R_LYSt5r)
+* LYStiDF (R_LYSt5r)
 	
 	L-Lysine -> L-Lysine
 * Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r1992)

@@ -1,0 +1,17 @@
+
+--------- H+ (M_h_e) ----------
+from :
+* Menauinol oxidase  72 protons  (R_CYTB_B3)
+	
+	H+O2 O2Menaquinol 7 C46H66O2 -> H+ + H2O H2OMenaquinone 7 C46H64O2
+* Cytochrome oxidase bd (ubiquinol-8: 2 protons) (R_CYTBD)
+	
+	H+O2 O2Ubiquinol-8 -> H+ + H2O H2OUbiquinone-8
+* Ferredoxin:NAD oxidoreductase ( 2 protons traslocation) (R_RNF)
+	
+	H+Nicotinamide adenine dinucleotideFerredoxin (reduced form 4:2) -> H+ + Nicotinamide adenine dinucleotide - reducedFerredoxin (oxidized form 4:2)
+
+to :
+* L-carnitine outward transport (H+ antiport) (R_CRNtHa)
+	
+	H+ + L-Carnitine -> L-Carnitine + H+

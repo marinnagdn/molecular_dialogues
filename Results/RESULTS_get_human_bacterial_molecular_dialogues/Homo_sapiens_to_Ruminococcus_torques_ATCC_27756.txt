@@ -1,4 +1,15 @@
 
+--------- N-Acetyl-D-glucosamine (M_acgam_e) ----------
+from :
+* Chitinase, extracellular (R_CHTNASEe)
+	
+	Chtn cH2O H2O -> N-Acetyl-D-glucosamine
+
+to :
+* N-Acetyl-D-glucosamine transport via PEP:Pyr PTS (R_ACGApts)
+	
+	N-Acetyl-D-glucosamine + Phosphoenolpyruvate -> N-Acetyl-D-glucosamine 6-phosphatePyruvate
+
 --------- L-Glutamate (M_glu__L_e) ----------
 from :
 * L-cystine/L-glutamate exchanger (R_CYSTGLUex)
@@ -12,29 +23,6 @@ to :
 * L-glutamate transport via ABC system (R_GLUabc)
 	
 	L-Glutamate + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2L-GlutamateH+Phosphate
-
---------- H+ (M_h_e) ----------
-from :
-* HMR 9605 (R_HMR_9605)
-	
-	L-AlanineSodium + H+ -> H+ + L-AlanineSodium
-* Biotin uptake (antiport) (R_BTNt4i)
-	
-	Biotin + H+ -> H+ + Biotin
-* H+/K+ gastric/non-gastric P-ATPase and ABC ATPase (R_HKt)
-	
-	Potassium + ATP C10H12N5O13P3H2O H2O -> H+ + ADP C10H12N5O10P2PotassiumPhosphate
-
-to :
-* Sodium proton antiporter  HNA is 11 Sodium proton antiporter  HNA is 11  (R_NAt3_1)
-	
-	H+ + Sodium -> Sodium + H+
-* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
-	
-	H+ + Sodium -> Sodium + H+
-* Spermidine transport out via proton antiport (R_SPMDt3)
-	
-	H+ + Spermidine -> Spermidine + H+
 
 --------- L-Arginine (M_arg__L_e) ----------
 from :
@@ -113,163 +101,39 @@ to :
 	
 	L-Arginine + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2L-ArginineH+Phosphate
 
---------- Zinc (M_zn2_e) ----------
+--------- H+ (M_h_e) ----------
 from :
-* Cation Diffusion Facilitator (Cdf) Tcdb:2.A.4.2.3 (R_r2465_1)
+* HMR 9605 (R_HMR_9605)
 	
-	Zinc -> Zinc
+	L-AlanineSodium + H+ -> H+ + L-AlanineSodium
+* Biotin uptake (antiport) (R_BTNt4i)
+	
+	Biotin + H+ -> H+ + Biotin
+* H+/K+ gastric/non-gastric P-ATPase and ABC ATPase (R_HKt)
+	
+	Potassium + ATP C10H12N5O13P3H2O H2O -> H+ + ADP C10H12N5O10P2PotassiumPhosphate
 
 to :
-* Zinc transport via ABC system (R_ZNabc)
+* Sodium proton antiporter  HNA is 11 Sodium proton antiporter  HNA is 11  (R_NAt3_1)
 	
-	Zinc + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PhosphateZinc
+	H+ + Sodium -> Sodium + H+
 
---------- L-Glutamine (M_gln__L_e) ----------
+--------- D-Glucose (M_glc__D_e) ----------
 from :
-* L-glutamine/L-asparagine Na-dependent exchange (Asn-L in) (R_ASNGLNNaEx)
+* Alpha-glucosidase, extracellular (R_MALTe)
 	
-	L-AsparagineSodium + L-Glutamine -> L-Glutamine + L-AsparagineSodium
-* L-threonine/L-glutamine Na-dependent exchange (Thr-L in) (R_THRGLNNaEx)
+	H2O H2OMaltose C12H22O11 -> D-Glucose
+* Glucose transport via membrane vesicle (R_GLCMter)
 	
-	SodiumL-Threonine + L-Glutamine -> L-Glutamine + SodiumL-Threonine
-* Y+LAT2 Utilized transport (R_r1673)
+	 -> D-Glucose
+* Alpha,alpha-trehalase (R_TREHe)
 	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1764)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1779)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1809)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1824)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1854)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1899)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2026)
-	
-	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
-* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2058)
-	
-	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
-* L-alanine/L-glutamine Na-dependent exchange (Ala-L in) (R_ALAGLNNaEx)
-	
-	L-AlanineSodium + L-Glutamine -> L-Glutamine + L-AlanineSodium
-* L-cysteine/L-glutamine Na-dependent exchange (Cys-L in) (R_CYSGLNNaEx)
-	
-	L-CysteineSodium + L-Glutamine -> L-Glutamine + L-CysteineSodium
-* L-serine/L-glutamine Na-dependent exchange (Ser-L in) (R_SERGLNNaEx)
-	
-	SodiumL-Serine + L-Glutamine -> L-Glutamine + SodiumL-Serine
-* Y+LAT2 Utilized transport (R_r1734)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1749)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1884)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r1994)
-	
-	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
-* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2010)
-	
-	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
-* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2042)
-	
-	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+	H2O H2OTrehalose -> D-Glucose
 
 to :
-* GLNabc (R_GLNabc)
+* D-glucose transport via PEP:Pyr PTS (R_GLCpts)
 	
-	L-Glutamine + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2L-GlutamineH+Phosphate
-
---------- L-Methionine (M_met__L_e) ----------
-from :
-* Y+LAT2 Utilized transport (R_r1705)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1766)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1781)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1796)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1811)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1841)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1901)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2060)
-	
-	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
-* Y+LAT2 Utilized transport (R_r1675)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1690)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1720)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1751)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1826)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1856)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1871)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Y+LAT2 Utilized transport (R_r1886)
-	
-	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
-* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r1996)
-	
-	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
-* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2012)
-	
-	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
-* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2028)
-	
-	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
-* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2044)
-	
-	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
-
-to :
-* L-methionine transport via ABC system (R_METabc)
-	
-	L-Methionine + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+L-MethioninePhosphate
-
---------- Tetradecenoate (n-C14:1) (M_ttdcea_e) ----------
-from :
-* Active Transport of Tetradecenoate (N-C14:1) (R_TTDCEAATP)
-	
-	ATP C10H12N5O13P3H2O H2OTetradecenoate (n-C14:1) -> Tetradecenoate (n-C14:1) + ADP C10H12N5O10P2H+Phosphate
-
-to :
-* Tetradecenoate transport via facilitated irreversible diffusion (extracellular to periplasm) (R_TTDCEAtexi)
-	
-	Tetradecenoate (n-C14:1) -> Tetradecenoate (n-C14:1)
+	D-Glucose + Phosphoenolpyruvate -> D-Glucose 6-phosphatePyruvate
 
 --------- L-Proline (M_pro__L_e) ----------
 from :
@@ -344,3 +208,14 @@ to :
 * L-proline transport via ABC system (R_PROabc)
 	
 	L-Proline + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PhosphateL-Proline
+
+--------- Lactose C12H22O11 (M_lcts_e) ----------
+from :
+* Lactose transport from Golgi to extracellular (via vesicle) (R_LCTStg)
+	
+	 -> Lactose C12H22O11
+
+to :
+* LCTSabc (R_LCTSabc)
+	
+	Lactose C12H22O11 + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+LactosePhosphate

@@ -1,0 +1,115 @@
+
+--------- H+ (M_h_e) ----------
+from :
+* HMR 9605 (R_HMR_9605)
+	
+	L-AlanineSodium + H+ -> H+ + L-AlanineSodium
+* Biotin uptake (antiport) (R_BTNt4i)
+	
+	Biotin + H+ -> H+ + Biotin
+* H+/K+ gastric/non-gastric P-ATPase and ABC ATPase (R_HKt)
+	
+	Potassium + ATP C10H12N5O13P3H2O H2O -> H+ + ADP C10H12N5O10P2PotassiumPhosphate
+
+to :
+* Sodium proton antiporter  HNA is 11 Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Nitrite transport out via proton antiport (R_NO2t3)
+	
+	H+ + Nitrite -> Nitrite + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Phosphate (M_pi_e) ----------
+from :
+* Inorganic phosphate exchange, diffusion (R_PIt)
+	
+	Phosphate -> Phosphate
+
+to :
+* Phosphate transport via ABC system (R_PIabc)
+	
+	Phosphate + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+Phosphate
+
+--------- Zinc (M_zn2_e) ----------
+from :
+* Cation Diffusion Facilitator (Cdf) Tcdb:2.A.4.2.3 (R_r2465_1)
+	
+	Zinc -> Zinc
+
+to :
+* Zinc transport via ABC system (R_ZNabc)
+	
+	Zinc + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PhosphateZinc
+
+--------- Potassium (M_k_e) ----------
+from :
+* L-aspartate transport via Na, H symport and K antiport (R_ASPt6)
+	
+	L-AspartateH+Sodium + Potassium -> Potassium + L-AspartateH+Sodium
+* Glutamate transport via Na, H symport and K antiport (R_GLUt6)
+	
+	L-GlutamateH+Sodium + Potassium -> Potassium + L-GlutamateH+Sodium
+* D-aspartate transport via Na, H symport and K antiport (R_ASPDt6)
+	
+	D-AspartateH+Sodium + Potassium -> Potassium + D-AspartateH+Sodium
+
+to :
+* Potassium ABC transporter (R_Kabc)
+	
+	Potassium + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PotassiumPhosphate
+
+--------- Taurine C2H7NO3S (M_taur_e) ----------
+from :
+* Hypotaurine Oxidase, Extracellular (R_HYPTROXe)
+	
+	Hypotaurine; 2-Aminoethanesulfinic acidO2 O2 -> Taurine C2H7NO3S
+* Taurine transport (R_TAURt)
+	
+	Taurine C2H7NO3S -> Taurine C2H7NO3S
+
+to :
+* Taurine transport via ABC system (R_TAURabc)
+	
+	Taurine C2H7NO3S + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PhosphateTaurine C2H7NO3S
+
+--------- D-Glucose (M_glc__D_e) ----------
+from :
+* Alpha-glucosidase, extracellular (R_MALTe)
+	
+	H2O H2OMaltose C12H22O11 -> D-Glucose
+* Glucose transport via membrane vesicle (R_GLCMter)
+	
+	 -> D-Glucose
+* Alpha,alpha-trehalase (R_TREHe)
+	
+	H2O H2OTrehalose -> D-Glucose
+
+to :
+* GLCabc (R_GLCabc)
+	
+	D-Glucose + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2D-GlucoseH+Phosphate
+
+--------- Lactose C12H22O11 (M_lcts_e) ----------
+from :
+* Lactose transport from Golgi to extracellular (via vesicle) (R_LCTStg)
+	
+	 -> Lactose C12H22O11
+
+to :
+* LCTSabc (R_LCTSabc)
+	
+	Lactose C12H22O11 + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+LactosePhosphate
+
+--------- Putrescine (M_ptrc_e) ----------
+from :
+* Putrescine Export via Putrescine/Arginine Exchanger (R_PTRCARGte)
+	
+	L-Arginine + Putrescine -> Putrescine + L-Arginine
+
+to :
+* Putrescine transport via ABC system (R_PTRCabc)
+	
+	Putrescine + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PhosphatePutrescine

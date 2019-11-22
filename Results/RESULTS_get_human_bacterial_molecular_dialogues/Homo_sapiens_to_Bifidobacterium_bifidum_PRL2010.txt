@@ -1,0 +1,138 @@
+
+--------- Putrescine (M_ptrc_e) ----------
+from :
+* Putrescine Export via Putrescine/Arginine Exchanger (R_PTRCARGte)
+	
+	L-Arginine + Putrescine -> Putrescine + L-Arginine
+
+to :
+* Putrescine transport via ABC system (R_PTRCabc)
+	
+	Putrescine + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PhosphatePutrescine
+
+--------- H+ (M_h_e) ----------
+from :
+* HMR 9605 (R_HMR_9605)
+	
+	L-AlanineSodium + H+ -> H+ + L-AlanineSodium
+* Biotin uptake (antiport) (R_BTNt4i)
+	
+	Biotin + H+ -> H+ + Biotin
+* H+/K+ gastric/non-gastric P-ATPase and ABC ATPase (R_HKt)
+	
+	Potassium + ATP C10H12N5O13P3H2O H2O -> H+ + ADP C10H12N5O10P2PotassiumPhosphate
+
+to :
+* Diacetyl transport out via proton antiport (R_DACTt3)
+	
+	H+ + Diacetyl -> Diacetyl + H+
+* L LACt3 (R_L_LACt3)
+	
+	H+ + L-Lactate -> L-Lactate + H+
+* Sodium proton antiporter  HNA is 11 Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+
+--------- Sulfate (M_so4_e) ----------
+from :
+* Active transport (R_r1162)
+	
+	
+
+to :
+* Sulfate transport via ABC system (R_SULabc)
+	
+	Sulfate + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PhosphateSulfate
+
+--------- L-Glutamine (M_gln__L_e) ----------
+from :
+* L-glutamine/L-asparagine Na-dependent exchange (Asn-L in) (R_ASNGLNNaEx)
+	
+	L-AsparagineSodium + L-Glutamine -> L-Glutamine + L-AsparagineSodium
+* L-threonine/L-glutamine Na-dependent exchange (Thr-L in) (R_THRGLNNaEx)
+	
+	SodiumL-Threonine + L-Glutamine -> L-Glutamine + SodiumL-Threonine
+* Y+LAT2 Utilized transport (R_r1673)
+	
+	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
+* Y+LAT2 Utilized transport (R_r1764)
+	
+	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
+* Y+LAT2 Utilized transport (R_r1779)
+	
+	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
+* Y+LAT2 Utilized transport (R_r1809)
+	
+	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
+* Y+LAT2 Utilized transport (R_r1824)
+	
+	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
+* Y+LAT2 Utilized transport (R_r1854)
+	
+	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
+* Y+LAT2 Utilized transport (R_r1899)
+	
+	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2026)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2058)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* L-alanine/L-glutamine Na-dependent exchange (Ala-L in) (R_ALAGLNNaEx)
+	
+	L-AlanineSodium + L-Glutamine -> L-Glutamine + L-AlanineSodium
+* L-cysteine/L-glutamine Na-dependent exchange (Cys-L in) (R_CYSGLNNaEx)
+	
+	L-CysteineSodium + L-Glutamine -> L-Glutamine + L-CysteineSodium
+* L-serine/L-glutamine Na-dependent exchange (Ser-L in) (R_SERGLNNaEx)
+	
+	SodiumL-Serine + L-Glutamine -> L-Glutamine + SodiumL-Serine
+* Y+LAT2 Utilized transport (R_r1734)
+	
+	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
+* Y+LAT2 Utilized transport (R_r1749)
+	
+	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
+* Y+LAT2 Utilized transport (R_r1884)
+	
+	L-IsoleucineSodium + L-Citrulline -> L-Citrulline + L-IsoleucineSodium
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r1994)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2010)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+* Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2042)
+	
+	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+
+to :
+* GLNabc (R_GLNabc)
+	
+	L-Glutamine + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2L-GlutamineH+Phosphate
+
+--------- Phosphate (M_pi_e) ----------
+from :
+* Inorganic phosphate exchange, diffusion (R_PIt)
+	
+	Phosphate -> Phosphate
+
+to :
+* Phosphate transport via ABC system (R_PIabc)
+	
+	Phosphate + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+Phosphate
+
+--------- Zinc (M_zn2_e) ----------
+from :
+* Cation Diffusion Facilitator (Cdf) Tcdb:2.A.4.2.3 (R_r2465_1)
+	
+	Zinc -> Zinc
+
+to :
+* Zinc transport via ABC system (R_ZNabc)
+	
+	Zinc + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PhosphateZinc

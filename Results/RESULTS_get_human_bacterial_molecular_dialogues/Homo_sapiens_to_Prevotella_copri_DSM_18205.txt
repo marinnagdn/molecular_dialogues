@@ -1,0 +1,56 @@
+
+--------- N-Acetyl-D-glucosamine (M_acgam_e) ----------
+from :
+* Chitinase, extracellular (R_CHTNASEe)
+	
+	Chtn cH2O H2O -> N-Acetyl-D-glucosamine
+
+to :
+* N-Acetyl-D-glucosamine transport via PEP:Pyr PTS (R_ACGApts)
+	
+	N-Acetyl-D-glucosamine + Phosphoenolpyruvate -> N-Acetyl-D-glucosamine 6-phosphatePyruvate
+
+--------- H+ (M_h_e) ----------
+from :
+* HMR 9605 (R_HMR_9605)
+	
+	L-AlanineSodium + H+ -> H+ + L-AlanineSodium
+* Biotin uptake (antiport) (R_BTNt4i)
+	
+	Biotin + H+ -> H+ + Biotin
+* H+/K+ gastric/non-gastric P-ATPase and ABC ATPase (R_HKt)
+	
+	Potassium + ATP C10H12N5O13P3H2O H2O -> H+ + ADP C10H12N5O10P2PotassiumPhosphate
+
+to :
+* Sodium proton antiporter  HNA is 11 Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- L-Glutamate (M_glu__L_e) ----------
+from :
+* L-cystine/L-glutamate exchanger (R_CYSTGLUex)
+	
+	L Cystine C6H12N2O4S2 + L-Glutamate -> L-Glutamate + L Cystine C6H12N2O4S2
+* L-glutamate secretion via secretory vesicle (ATP driven) (R_GLUVESSEC)
+	
+	ATP C10H12N5O13P3L-GlutamateH2O H2O -> L-Glutamate + ADP C10H12N5O10P2H+Phosphate
+
+to :
+* L-glutamate transport via ABC system (R_GLUabc)
+	
+	L-Glutamate + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2L-GlutamateH+Phosphate
+
+--------- Zinc (M_zn2_e) ----------
+from :
+* Cation Diffusion Facilitator (Cdf) Tcdb:2.A.4.2.3 (R_r2465_1)
+	
+	Zinc -> Zinc
+
+to :
+* Zinc transport via ABC system (R_ZNabc)
+	
+	Zinc + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PhosphateZinc

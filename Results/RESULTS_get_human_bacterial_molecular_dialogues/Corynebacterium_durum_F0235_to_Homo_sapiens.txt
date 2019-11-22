@@ -1,4 +1,18 @@
 
+--------- Potassium (M_k_e) ----------
+from :
+* Potassium transport out via proton antiportKt3r (R_Kt3r)
+	
+	
+
+to :
+* H+/K+ gastric/non-gastric P-ATPase and ABC ATPase (R_HKt)
+	
+	Potassium + ATP C10H12N5O13P3H2O H2O -> H+ + ADP C10H12N5O10P2PotassiumPhosphate
+* Na+/K+ Exchanging ATPase (R_NaKt_1)
+	
+	Potassium + ATP C10H12N5O13P3H2O H2OSodium -> Sodium + ADP C10H12N5O10P2H+PotassiumPhosphate
+
 --------- H+ (M_h_e) ----------
 from :
 * CYO1a (R_CYO1a)
@@ -18,8 +32,3 @@ to :
 * L-carnitine outward transport (H+ antiport) (R_CRNtHa)
 	
 	H+ + L-Carnitine -> L-Carnitine + H+
-
---------- Potassium (M_k_e) ----------
-from :
-* Potassium transport out via proton antiportKt3r (R_Kt3r)
-	

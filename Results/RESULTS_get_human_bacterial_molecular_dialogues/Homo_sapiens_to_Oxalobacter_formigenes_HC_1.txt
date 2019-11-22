@@ -1,0 +1,45 @@
+
+--------- H+ (M_h_e) ----------
+from :
+* HMR 9605 (R_HMR_9605)
+	
+	L-AlanineSodium + H+ -> H+ + L-AlanineSodium
+* Biotin uptake (antiport) (R_BTNt4i)
+	
+	Biotin + H+ -> H+ + Biotin
+* H+/K+ gastric/non-gastric P-ATPase and ABC ATPase (R_HKt)
+	
+	Potassium + ATP C10H12N5O13P3H2O H2O -> H+ + ADP C10H12N5O10P2PotassiumPhosphate
+
+to :
+* LYSt3r (R_LYSt3r)
+	
+	H+ + L-Lysine -> L-Lysine + H+
+* Sodium proton antiporter  HNA is 11 Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Phosphate (M_pi_e) ----------
+from :
+* Inorganic phosphate exchange, diffusion (R_PIt)
+	
+	Phosphate -> Phosphate
+
+to :
+* Phosphate transport via ABC system (R_PIabc)
+	
+	Phosphate + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+Phosphate
+
+--------- Sulfate (M_so4_e) ----------
+from :
+* Active transport (R_r1162)
+	
+	
+
+to :
+* Sulfate transport via ABC system (R_SULabc)
+	
+	Sulfate + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PhosphateSulfate

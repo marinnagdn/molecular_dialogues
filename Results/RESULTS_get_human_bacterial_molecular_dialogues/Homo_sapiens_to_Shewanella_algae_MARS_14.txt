@@ -1,0 +1,187 @@
+
+--------- Sulfate (M_so4_e) ----------
+from :
+* Active transport (R_r1162)
+	
+	
+
+to :
+* Sulfate transport via ABC system (R_SULabc)
+	
+	Sulfate + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PhosphateSulfate
+
+--------- L-Carnitine (M_crn_e) ----------
+from :
+* L-carnitine outward transport (H+ antiport) (R_CRNtHa)
+	
+	H+ + L-Carnitine -> L-Carnitine + H+
+
+to :
+* Carnitine/butyrobetaine antiporter (R_CRNt7)
+	
+	L-Carnitine + Gamma-butyrobetaine -> Gamma-butyrobetaine + L-Carnitine
+
+--------- Tetradecenoate (n-C14:1) (M_ttdcea_e) ----------
+from :
+* Active Transport of Tetradecenoate (N-C14:1) (R_TTDCEAATP)
+	
+	ATP C10H12N5O13P3H2O H2OTetradecenoate (n-C14:1) -> Tetradecenoate (n-C14:1) + ADP C10H12N5O10P2H+Phosphate
+
+to :
+* Tetradecenoate transport via facilitated irreversible diffusion (extracellular to periplasm) (R_TTDCEAtexi)
+	
+	Tetradecenoate (n-C14:1) -> Tetradecenoate (n-C14:1)
+
+--------- Dodecanoate (n-C12:0) (M_ddca_e) ----------
+from :
+* ATP-binding Cassette (ABC) TCDB:3.A.1.211.1 (R_r1528)
+	
+	ATP C10H12N5O13P3H2O H2OTetradecanoate (n-C14:0) -> Tetradecanoate (n-C14:0) + ADP C10H12N5O10P2H+Phosphate
+
+to :
+* Fatty acid (dodecanoate) transport via facilitated irreversible diffusion (extracellular to periplasm) (R_DDCAtexi)
+	
+	Dodecanoate (n-C12:0) -> Dodecanoate (n-C12:0)
+
+--------- Octadecenoate (n-C18:1) (M_ocdcea_e) ----------
+from :
+* ATP-binding Cassette (ABC) TCDB:3.A.1.211.1 (R_r1516)
+	
+	ATP C10H12N5O13P3H2O H2OTetradecanoate (n-C14:0) -> Tetradecanoate (n-C14:0) + ADP C10H12N5O10P2H+Phosphate
+
+to :
+* Octadecenoate (n-C18:1) transport via facilitated irreversible diffusion (extracellular to periplasm) (R_OCDCEAtexi)
+	
+	Octadecenoate (n-C18:1) -> Octadecenoate (n-C18:1)
+
+--------- Octadecanoate (n-C18:0) (M_ocdca_e) ----------
+from :
+* HMR 0253 (R_HMR_0253)
+	
+	ATP C10H12N5O13P3H2O H2OOctadecanoate (n-C18:0) -> Octadecanoate (n-C18:0) + ADP C10H12N5O10P2H+Phosphate
+
+to :
+* Octadecanoate transport via facilitated irreversible diffusion (extracellular to periplasm) (R_OCDCAtexi)
+	
+	Octadecanoate (n-C18:0) -> Octadecanoate (n-C18:0)
+
+--------- Hexadecenoate (n-C16:1) (M_hdcea_e) ----------
+from :
+* ATP-binding Cassette (ABC) TCDB:3.A.1.211.1 (R_r1523)
+	
+	ATP C10H12N5O13P3H2O H2OTetradecanoate (n-C14:0) -> Tetradecanoate (n-C14:0) + ADP C10H12N5O10P2H+Phosphate
+
+to :
+* Hexadecenoate transport via facilitated irreversible diffusion (extracellular to periplasm) (R_HDCEAtexi)
+	
+	Hexadecenoate (n-C16:1) -> Hexadecenoate (n-C16:1)
+
+--------- D-Glucose (M_glc__D_e) ----------
+from :
+* Alpha-glucosidase, extracellular (R_MALTe)
+	
+	H2O H2OMaltose C12H22O11 -> D-Glucose
+* Glucose transport via membrane vesicle (R_GLCMter)
+	
+	 -> D-Glucose
+* Alpha,alpha-trehalase (R_TREHe)
+	
+	H2O H2OTrehalose -> D-Glucose
+
+to :
+* D-glucose transport via PEP:Pyr PTS (R_GLCpts)
+	
+	D-Glucose + Phosphoenolpyruvate -> D-Glucose 6-phosphatePyruvate
+
+--------- Potassium (M_k_e) ----------
+from :
+* L-aspartate transport via Na, H symport and K antiport (R_ASPt6)
+	
+	L-AspartateH+Sodium + Potassium -> Potassium + L-AspartateH+Sodium
+* Glutamate transport via Na, H symport and K antiport (R_GLUt6)
+	
+	L-GlutamateH+Sodium + Potassium -> Potassium + L-GlutamateH+Sodium
+* D-aspartate transport via Na, H symport and K antiport (R_ASPDt6)
+	
+	D-AspartateH+Sodium + Potassium -> Potassium + D-AspartateH+Sodium
+
+to :
+* Potassium ABC transporter (R_Kabc)
+	
+	Potassium + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PotassiumPhosphate
+* Potassium transport via uniport (facilitated diffusion)Potassium transport via uniport (facilitated diffusion) (R_Kt1)
+	
+	Potassium -> Potassium
+
+--------- N-Acetyl-D-glucosamine (M_acgam_e) ----------
+from :
+* Chitinase, extracellular (R_CHTNASEe)
+	
+	Chtn cH2O H2O -> N-Acetyl-D-glucosamine
+
+to :
+* N-Acetyl-D-glucosamine transport via PEP:Pyr PTS (R_ACGApts)
+	
+	N-Acetyl-D-glucosamine + Phosphoenolpyruvate -> N-Acetyl-D-glucosamine 6-phosphatePyruvate
+
+--------- Tetradecanoate (n-C14:0) (M_ttdca_e) ----------
+from :
+* ATP-binding Cassette (ABC) TCDB:3.A.1.211.1 (R_r1529)
+	
+	ATP C10H12N5O13P3H2O H2OTetradecanoate (n-C14:0) -> Tetradecanoate (n-C14:0) + ADP C10H12N5O10P2H+Phosphate
+
+to :
+* Tetradecanoate transport via facilitated irreversible diffusion (extracellular to periplasm) (R_TTDCAtexi)
+	
+	Tetradecanoate (n-C14:0) -> Tetradecanoate (n-C14:0)
+
+--------- L-Glutamate (M_glu__L_e) ----------
+from :
+* L-cystine/L-glutamate exchanger (R_CYSTGLUex)
+	
+	L Cystine C6H12N2O4S2 + L-Glutamate -> L-Glutamate + L Cystine C6H12N2O4S2
+* L-glutamate secretion via secretory vesicle (ATP driven) (R_GLUVESSEC)
+	
+	ATP C10H12N5O13P3L-GlutamateH2O H2O -> L-Glutamate + ADP C10H12N5O10P2H+Phosphate
+
+to :
+* L-glutamate transport via ABC system (R_GLUabc)
+	
+	L-Glutamate + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2L-GlutamateH+Phosphate
+
+--------- Hexadecanoate (n-C16:0) (M_hdca_e) ----------
+from :
+* ATP-binding Cassette (ABC) TCDB:3.A.1.211.1 (R_r1515)
+	
+	ATP C10H12N5O13P3H2O H2OTetradecanoate (n-C14:0) -> Tetradecanoate (n-C14:0) + ADP C10H12N5O10P2H+Phosphate
+
+to :
+* Hexadecanoate transport via facilitated irreversible diffusion (extracellular to periplasm) (R_HDCAtexi)
+	
+	Hexadecanoate (n-C16:0) -> Hexadecanoate (n-C16:0)
+
+--------- H+ (M_h_e) ----------
+from :
+* HMR 9605 (R_HMR_9605)
+	
+	L-AlanineSodium + H+ -> H+ + L-AlanineSodium
+* Biotin uptake (antiport) (R_BTNt4i)
+	
+	Biotin + H+ -> H+ + Biotin
+* H+/K+ gastric/non-gastric P-ATPase and ABC ATPase (R_HKt)
+	
+	Potassium + ATP C10H12N5O13P3H2O H2O -> H+ + ADP C10H12N5O10P2PotassiumPhosphate
+
+to :
+* Sodium proton antiporter  HNA is 11 Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 1.5) (R_NAt3_15)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+

@@ -1,0 +1,26 @@
+
+--------- H+ (M_h_e) ----------
+from :
+* Cytochrome oxidase bd (ubiquinol-8: 2 protons) (R_CYTBD)
+	
+	H+O2 O2Ubiquinol-8 -> H+ + H2O H2OUbiquinone-8
+* Formate dehydrogenase (quinone-8: 2 protons) (R_FDH2)
+	
+	FormateH+Ubiquinone-8 -> H+ + CO2 CO2Ubiquinol-8
+* Formate Dehydrogenase (menaquinone-8: 2 protons) (R_FDH3)
+	
+	FormateH+Menaquinone 8 -> H+ + CO2 CO2Menaquinol 8
+* Hydrogenase (Demethylmenaquinone-8: 2 protons) (R_HYD3)
+	
+	2-Demethylmenaquinone 8H+H2 -> H+ + 2-Demethylmenaquinol 8
+* NADH dehydrogenase (demethylmenaquinone-8 &amp; 2.8 protons) (R_NADH8)
+	
+	2-Demethylmenaquinone 8H+Nicotinamide adenine dinucleotide - reduced -> H+ + 2-Demethylmenaquinol 8Nicotinamide adenine dinucleotide
+* Ferredoxin:NAD oxidoreductase ( 2 protons traslocation) (R_RNF)
+	
+	H+Nicotinamide adenine dinucleotideFerredoxin (reduced form 4:2) -> H+ + Nicotinamide adenine dinucleotide - reducedFerredoxin (oxidized form 4:2)
+
+to :
+* L-carnitine outward transport (H+ antiport) (R_CRNtHa)
+	
+	H+ + L-Carnitine -> L-Carnitine + H+

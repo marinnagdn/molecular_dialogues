@@ -1,21 +1,9 @@
 
 --------- H+ (M_h_e) ----------
 from :
-* Menauinol oxidase  72 protons  (R_CYTB_B3)
+* Menaquinol oxidase  71 protons  (R_CYTB_B2)
 	
 	H+O2 O2Menaquinol 7 C46H66O2 -> H+ + H2O H2OMenaquinone 7 C46H64O2
-* Cytochrome oxidase bd (ubiquinol-8: 2 protons) (R_CYTBD)
-	
-	H+O2 O2Ubiquinol-8 -> H+ + H2O H2OUbiquinone-8
-* CYTBD2 (R_CYTBD2)
-	
-	H+Menaquinol 8O2 O2 -> H+ + H2O H2OMenaquinone 8
-* Nitrate reductase (Ubiquinol-8) (R_NO3R1)
-	
-	H+NitrateUbiquinol-8 -> H+ + H2O H2ONitriteUbiquinone-8
-* Nitrate reductase (Menaquinol-8) (R_NO3R2)
-	
-	H+Menaquinol 8Nitrate -> H+ + H2O H2OMenaquinone 8Nitrite
 
 to :
 * L-carnitine outward transport (H+ antiport) (R_CRNtHa)

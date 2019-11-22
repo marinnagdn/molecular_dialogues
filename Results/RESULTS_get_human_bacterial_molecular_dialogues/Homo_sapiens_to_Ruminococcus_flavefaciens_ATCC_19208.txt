@@ -1,0 +1,67 @@
+
+--------- Lactose C12H22O11 (M_lcts_e) ----------
+from :
+* Lactose transport from Golgi to extracellular (via vesicle) (R_LCTStg)
+	
+	 -> Lactose C12H22O11
+
+to :
+* LCTSabc (R_LCTSabc)
+	
+	Lactose C12H22O11 + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+LactosePhosphate
+
+--------- Tetradecenoate (n-C14:1) (M_ttdcea_e) ----------
+from :
+* Active Transport of Tetradecenoate (N-C14:1) (R_TTDCEAATP)
+	
+	ATP C10H12N5O13P3H2O H2OTetradecenoate (n-C14:1) -> Tetradecenoate (n-C14:1) + ADP C10H12N5O10P2H+Phosphate
+
+to :
+* Tetradecenoate transport via facilitated irreversible diffusion (extracellular to periplasm) (R_TTDCEAtexi)
+	
+	Tetradecenoate (n-C14:1) -> Tetradecenoate (n-C14:1)
+
+--------- H+ (M_h_e) ----------
+from :
+* HMR 9605 (R_HMR_9605)
+	
+	L-AlanineSodium + H+ -> H+ + L-AlanineSodium
+* Biotin uptake (antiport) (R_BTNt4i)
+	
+	Biotin + H+ -> H+ + Biotin
+* H+/K+ gastric/non-gastric P-ATPase and ABC ATPase (R_HKt)
+	
+	Potassium + ATP C10H12N5O13P3H2O H2O -> H+ + ADP C10H12N5O10P2PotassiumPhosphate
+
+to :
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Zinc (M_zn2_e) ----------
+from :
+* Cation Diffusion Facilitator (Cdf) Tcdb:2.A.4.2.3 (R_r2465_1)
+	
+	Zinc -> Zinc
+
+to :
+* Zinc transport via ABC system (R_ZNabc)
+	
+	Zinc + ATP C10H12N5O13P3H2O H2O -> ADP C10H12N5O10P2H+PhosphateZinc
+
+--------- Potassium (M_k_e) ----------
+from :
+* L-aspartate transport via Na, H symport and K antiport (R_ASPt6)
+	
+	L-AspartateH+Sodium + Potassium -> Potassium + L-AspartateH+Sodium
+* Glutamate transport via Na, H symport and K antiport (R_GLUt6)
+	
+	L-GlutamateH+Sodium + Potassium -> Potassium + L-GlutamateH+Sodium
+* D-aspartate transport via Na, H symport and K antiport (R_ASPDt6)
+	
+	D-AspartateH+Sodium + Potassium -> Potassium + D-AspartateH+Sodium
+
+to :
+* Potassium transport via uniport (facilitated diffusion)Potassium transport via uniport (facilitated diffusion) (R_Kt1)
+	
+	Potassium -> Potassium

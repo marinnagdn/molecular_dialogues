@@ -1,38 +1,4 @@
 
---------- H+ (M_h_e) ----------
-from :
-* CYO1a (R_CYO1a)
-	
-	H+Ferricytochrome c C42H52FeN8O6S2Ubiquinol -> H+ + Ferrocytochrome c C42H53FeN8O6S2Ubiquinone
-* Menaquinol oxidase  71 protons  (R_CYTB_B2)
-	
-	H+O2 O2Menaquinol 7 C46H66O2 -> H+ + H2O H2OMenaquinone 7 C46H64O2
-* Nitrate reductase (Ubiquinol-8) (R_NO3R1)
-	
-	H+NitrateUbiquinol-8 -> H+ + H2O H2ONitriteUbiquinone-8
-* Nitrate reductase (Menaquinol-8) (R_NO3R2)
-	
-	H+Menaquinol 8Nitrate -> H+ + H2O H2OMenaquinone 8Nitrite
-
-to :
-* L-carnitine outward transport (H+ antiport) (R_CRNtHa)
-	
-	H+ + L-Carnitine -> L-Carnitine + H+
-
---------- Potassium (M_k_e) ----------
-from :
-* Potassium transport out via proton antiportKt3r (R_Kt3r)
-	
-	
-
-to :
-* H+/K+ gastric/non-gastric P-ATPase and ABC ATPase (R_HKt)
-	
-	Potassium + ATP C10H12N5O13P3H2O H2O -> H+ + ADP C10H12N5O10P2PotassiumPhosphate
-* Na+/K+ Exchanging ATPase (R_NaKt_1)
-	
-	Potassium + ATP C10H12N5O13P3H2O H2OSodium -> Sodium + ADP C10H12N5O10P2H+PotassiumPhosphate
-
 --------- L-Lysine (M_lys__L_e) ----------
 from :
 * LYSt3r (R_LYSt3r)
@@ -91,3 +57,45 @@ to :
 * Amino Acid-Polyamine-Organocation (APC) TCDB:2.A.3.8.15 (R_r2006)
 	
 	L-Citrulline + L-Homoserine -> L-Homoserine + L-Citrulline
+
+--------- Fe2+ mitochondria (M_fe2_e) ----------
+from :
+* Quinon:iron(III) oxidoreductase (R_FERIRDe)
+	
+	Iron (Fe3+) + Ubiquinol -> Fe2+ mitochondriaH+ + Ubiquinone
+
+to :
+* Uptake of food iron by DMT1 transporter (R_FE2DMT1)
+	
+	Fe2+ mitochondriaH+ -> Fe2+ mitochondriaH+
+
+--------- H+ (M_h_e) ----------
+from :
+* Quinon:iron(III) oxidoreductase (R_FERIRDe)
+	
+	Iron (Fe3+) + Ubiquinol -> Fe2+ mitochondriaH+ + Ubiquinone
+
+to :
+* Uptake of food iron by DMT1 transporter (R_FE2DMT1)
+	
+	Fe2+ mitochondriaH+ -> Fe2+ mitochondriaH+
+
+--------- H+ (M_h_e) ----------
+from :
+* Nitrate reductase (Ubiquinol-8) (R_NO3R1)
+	
+	H+NitrateUbiquinol-8 -> H+ + H2O H2ONitriteUbiquinone-8
+* Nitrate reductase (Menaquinol-8) (R_NO3R2)
+	
+	H+Menaquinol 8Nitrate -> H+ + H2O H2OMenaquinone 8Nitrite
+* Nitrate reductase (R_NTR3B)
+	
+	H+NitrateMenaquinol 7 C46H66O2 -> H+ + H2O H2ONitriteMenaquinone 7 C46H64O2
+* Ferredoxin:NAD oxidoreductase ( 2 protons traslocation) (R_RNF)
+	
+	H+Nicotinamide adenine dinucleotideFerredoxin (reduced form 4:2) -> H+ + Nicotinamide adenine dinucleotide - reducedFerredoxin (oxidized form 4:2)
+
+to :
+* L-carnitine outward transport (H+ antiport) (R_CRNtHa)
+	
+	H+ + L-Carnitine -> L-Carnitine + H+
