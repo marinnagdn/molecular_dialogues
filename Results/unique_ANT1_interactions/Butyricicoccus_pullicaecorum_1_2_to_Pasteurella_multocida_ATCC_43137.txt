@@ -1,0 +1,132 @@
+
+--------- H+ (M_h_e) ----------
+from :
+* NADH dehydrogenase (R_NADHDH)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone -> H+ + Nicotinamide adenine dinucleotideUbiquinol
+* Ferredoxin:NAD oxidoreductase ( 2 protons traslocation) (R_RNF)
+	
+	H+Nicotinamide adenine dinucleotideFerredoxin (reduced form 4:2) -> H+ + Nicotinamide adenine dinucleotide - reducedFerredoxin (oxidized form 4:2)
+
+to :
+* Proton transport via diffusion (extracellular to periplasm) (R_Htex)
+	
+	H+ -> H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 1.5) (R_NAt3_15)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+* NAD(P) transhydrogenase (R_THD2)
+	
+	H+ + Nicotinamide adenine dinucleotide - reducedNicotinamide adenine dinucleotide phosphate -> H+Nicotinamide adenine dinucleotideNicotinamide adenine dinucleotide phosphate - reduced
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+* Cuabc (R_Cuabc)
+	
+	Cu2+ + ATPH2O -> ADPCu2+H+Phosphate
+
+--------- Sodium (M_na1_e) ----------
+from :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+
+to :
+* Sodium transport via diffusion (extracellular to periplasm) (R_NAtex)
+	
+	Sodium -> Sodium
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* Calcium (Ca+2) transport via diffusion (extracellular to periplasm) (R_CA2tex)
+	
+	Calcium -> Calcium
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- D-Ribose (M_rib__D_e) ----------
+from :
+* D ribose transport out via ABC system (R_RIBabc1)
+	
+	ATPH2OD-Ribose -> D-Ribose + ADPH+Phosphate
+
+to :
+* D-ribose transport via ABC system (R_RIBabc)
+	
+	D-Ribose + ATPH2O -> ADPH+PhosphateD-Ribose
+* Ribose transport via diffusion (extracellular to periplasm) (R_RIBtex)
+	
+	D-Ribose -> D-Ribose
+
+--------- D-Glucose (M_glc__D_e) ----------
+from :
+* Beta glucosidase  cellobiose  (R_BG_CELLB)
+	
+	H2OCellobiose -> D-Glucose
+
+to :
+* D-glucose transport via PEP:Pyr PTS (R_GLCpts)
+	
+	D-Glucose + Phosphoenolpyruvate -> D-Glucose 6-phosphatePyruvate
+* Glucose transport via diffusion (extracellular to periplasm) (R_GLCtex)
+	
+	D-Glucose -> D-Glucose
+
+--------- Spermidine (M_spmd_e) ----------
+from :
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+to :
+* Spermidine transport via ABC system (R_SPMDabc)
+	
+	Spermidine + ATPH2O -> ADPH+PhosphateSpermidine
+* Spermidine transport via diffusion (extracellular to periplasm) (R_SPMDtex)
+	
+	Spermidine -> Spermidine
+
+--------- Formate (M_for_e) ----------
+from :
+* Formate transport via diffusion (R_FORti)
+	
+	Formate -> Formate
+
+to :
+* Formate transport via diffusion (R_FORt)
+	
+	Formate -> Formate
+* Formate transport via diffusion (extracellular to periplasm) (R_FORtex)
+	
+	Formate -> Formate

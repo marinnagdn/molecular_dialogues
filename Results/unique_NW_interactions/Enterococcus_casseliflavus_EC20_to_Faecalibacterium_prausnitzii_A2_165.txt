@@ -1,0 +1,58 @@
+
+--------- D-Glucose (M_glc__D_e) ----------
+from :
+* Beta glucosidase  cellobiose  (R_BG_CELLB)
+	
+	H2OCellobiose -> D-Glucose
+
+to :
+* Glucose transport via diffusion (extracellular to periplasm) (R_GLCtex)
+	
+	D-Glucose -> D-Glucose
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+
+--------- Succinate (M_succ_e) ----------
+from :
+* SUCFUMt (R_SUCFUMt)
+	
+	Fumarate + Succinate -> Succinate + Fumarate
+
+to :
+* Succinate transport via ABC system (R_SUCCabc)
+	
+	Succinate + ATPH2O -> ADPH+PhosphateSuccinate
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- H+ (M_h_e) ----------
+from :
+* Menaquinol oxidase  71 protons  (R_CYTB_B2)
+	
+	H+O2Menaquinol 7 C46H66O2 -> H+ + H2OMenaquinone 7 C46H64O2
+
+to :
+* Sodium proton antiporter (H:NA is 1.5) (R_NAt3_15)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+

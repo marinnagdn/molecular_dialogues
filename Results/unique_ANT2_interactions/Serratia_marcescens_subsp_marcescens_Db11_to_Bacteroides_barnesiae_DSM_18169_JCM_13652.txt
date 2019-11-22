@@ -1,0 +1,200 @@
+
+--------- Phosphate (M_pi_e) ----------
+from :
+* Glycerol-3-phosphate : phosphate antiporter (R_GLYC3Pt6)
+	
+	Glycerol 3-phosphate + Phosphate -> Phosphate + Glycerol 3-phosphate
+
+to :
+* Phosphate transport via ABC system (R_PIabc)
+	
+	Phosphate + ATPH2O -> ADPH+Phosphate
+* Phosphate transport via diffusion (extracellular to periplasm) (R_PItex)
+	
+	Phosphate -> Phosphate
+
+--------- Formate (M_for_e) ----------
+from :
+* Formate transport via diffusion (R_FORti)
+	
+	Formate -> Formate
+
+to :
+* Formate transport via diffusion (extracellular to periplasm) (R_FORtex)
+	
+	Formate -> Formate
+
+--------- Glycerol (M_glyc_e) ----------
+from :
+* Glycerol transport via channel (R_GLYCt)
+	
+	Glycerol -> Glycerol
+
+to :
+* Glycerol transport via diffusion (extracellular to periplasm) (R_GLYCtex)
+	
+	Glycerol -> Glycerol
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+
+--------- Co2+ (M_cobalt2_e) ----------
+from :
+* COBALTt5 (R_COBALTt5)
+	
+	Co2+ -> Co2+
+
+to :
+* Cobalt (Co+2) transport via diffusion (extracellular to periplasm) (R_COBALT2tex)
+	
+	Co2+ -> Co2+
+
+--------- H+ (M_h_e) ----------
+from :
+* Nitrate reductase (Ubiquinol-8) (R_NO3R1)
+	
+	H+NitrateUbiquinol-8 -> H+ + H2ONitriteUbiquinone-8
+* Nitrate reductase (Menaquinol-8) (R_NO3R2)
+	
+	H+Menaquinol 8Nitrate -> H+ + H2OMenaquinone 8Nitrite
+* Nitrate reductase (R_NTR3B)
+	
+	H+NitrateMenaquinol 7 C46H66O2 -> H+ + H2ONitriteMenaquinone 7 C46H64O2
+* Ferredoxin:NAD oxidoreductase ( 2 protons traslocation) (R_RNF)
+	
+	H+Nicotinamide adenine dinucleotideFerredoxin (reduced form 4:2) -> H+ + Nicotinamide adenine dinucleotide - reducedFerredoxin (oxidized form 4:2)
+
+to :
+* Proton transport via diffusion (extracellular to periplasm) (R_Htex)
+	
+	H+ -> H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Magnesium (M_mg2_e) ----------
+from :
+* MGt5 (R_MGt5)
+	
+	Magnesium -> Magnesium
+
+to :
+* Magnesium (Mg+2) transport via diffusion (extracellular to periplasm) (R_MG2tex)
+	
+	Magnesium -> Magnesium
+
+--------- Acetate (M_ac_e) ----------
+from :
+* Citrate transport via acetate antiport (R_CITACt)
+	
+	Citrate + Acetate -> Acetate + Citrate
+
+to :
+* Acetate transport via diffusion (extracellular to periplasm) (R_ACtex)
+	
+	Acetate -> Acetate
+
+--------- Rifampin (M_rfamp_e) ----------
+from :
+* Rifampin transport via TolC system (R_RFAMPtpp)
+	
+	H+Rifampin -> Rifampin + H+
+
+to :
+* Rifampin transport via diffusion (extracellular to periplasm) (R_RFAMPtex)
+	
+	Rifampin -> Rifampin
+
+--------- Sodium (M_na1_e) ----------
+from :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 1.5) (R_NAt3_15)
+	
+	H+ + Sodium -> Sodium + H+
+
+to :
+* Sodium transport via diffusion (extracellular to periplasm) (R_NAtex)
+	
+	Sodium -> Sodium
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* Cadminum transport out via antiport (R_CD2t4)
+	
+	H+Potassium + Cadmium -> Cadmium + H+Potassium
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- Zinc (M_zn2_e) ----------
+from :
+* Zinc transport out via antiport (R_ZN2t4)
+	
+	H+Potassium + Zinc -> Zinc + H+Potassium
+
+to :
+* Zinc (Zn+2) transport via diffusion (extracellular to periplasm) (R_Zn2tex)
+	
+	Zinc -> Zinc
+* Zinc transport via ABC system (R_ZNabc)
+	
+	Zinc + ATPH2O -> ADPH+PhosphateZinc
+
+--------- H+ (M_h_e) ----------
+from :
+* Succinate efflux via proton symport (R_SUCCt2b)
+	
+	H+Succinate -> H+Succinate
+
+to :
+* Succintate transport via proton symport (3 H) (R_SUCCt2_3)
+	
+	H+Succinate -> H+Succinate
+
+--------- Succinate (M_succ_e) ----------
+from :
+* Succinate efflux via proton symport (R_SUCCt2b)
+	
+	H+Succinate -> H+Succinate
+
+to :
+* Succintate transport via proton symport (3 H) (R_SUCCt2_3)
+	
+	H+Succinate -> H+Succinate
+
+--------- Nitrite (M_no2_e) ----------
+from :
+* Nitrate transport in via nitrite antiport (R_NO3t7)
+	
+	Nitrate + Nitrite -> Nitrite + Nitrate
+
+to :
+* Nitrite transport via diffusion (extracellular to periplasm) (R_NO2tex)
+	
+	Nitrite -> Nitrite
+
+--------- Novobiocin (M_novbcn_e) ----------
+from :
+* Novobiocin transport via TolC system (R_NOVBCNtpp)
+	
+	H+Novobiocin -> Novobiocin + H+
+
+to :
+* Novobiocin transport via diffusion (extracellular to periplasm) (R_NOVBCNtex)
+	
+	Novobiocin -> Novobiocin

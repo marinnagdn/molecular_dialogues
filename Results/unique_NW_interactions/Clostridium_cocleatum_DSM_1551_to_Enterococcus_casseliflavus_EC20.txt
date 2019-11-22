@@ -1,0 +1,148 @@
+
+--------- Co2+ (M_cobalt2_e) ----------
+from :
+* COBALTt5 (R_COBALTt5)
+	
+	Co2+ -> Co2+
+
+to :
+* Cobalt transport via ABC system (R_COabc)
+	
+	Co2+ + ATPH2O -> ADPCo2+H+Phosphate
+* Cobalt (Co+2) transport via diffusion (extracellular to periplasm) (R_COBALT2tex)
+	
+	Co2+ -> Co2+
+
+--------- Spermidine (M_spmd_e) ----------
+from :
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+to :
+* Spermidine transport via ABC system (R_SPMDabc)
+	
+	Spermidine + ATPH2O -> ADPH+PhosphateSpermidine
+* Spermidine transport via diffusion (extracellular to periplasm) (R_SPMDtex)
+	
+	Spermidine -> Spermidine
+
+--------- Sodium (M_na1_e) ----------
+from :
+* Sodium transport out via ABC system (R_NAabcO)
+	
+	ATPH2OSodium -> Sodium + ADPH+Phosphate
+
+to :
+* Sodium transport via diffusion (extracellular to periplasm) (R_NAtex)
+	
+	Sodium -> Sodium
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate
+* Calcium (Ca+2) transport via diffusion (extracellular to periplasm) (R_CA2tex)
+	
+	Calcium -> Calcium
+
+--------- Glycerol (M_glyc_e) ----------
+from :
+* Glycerol transport via channel (R_GLYCt)
+	
+	Glycerol -> Glycerol
+
+to :
+* Glycerol transport via uniport (facilitated diffusion) (R_GLYCt1)
+	
+	Glycerol -> Glycerol
+* Glycerol transport via diffusion (extracellular to periplasm) (R_GLYCtex)
+	
+	Glycerol -> Glycerol
+
+--------- L-Arabinose (M_arab__L_e) ----------
+from :
+* Alpha-N-arabinofuranosidase (R_ABFA)
+	
+	H2OAlpha-L-Arabinan (3 subunits) -> L-Arabinose
+
+to :
+* ARBabc (R_ARBabc)
+	
+	L-Arabinose + ATPH2O -> ADPL-ArabinoseH+Phosphate
+
+--------- Nitrite (M_no2_e) ----------
+from :
+* Nitrite transport out via proton antiport (R_NO2t3)
+	
+	H+ + Nitrite -> Nitrite + H+
+
+to :
+* Nitrite transport via diffusion (extracellular to periplasm) (R_NO2tex)
+	
+	Nitrite -> Nitrite
+
+--------- H2 (M_h2_e) ----------
+from :
+* H2td (R_H2td)
+	
+	H2 -> H2
+
+to :
+* Hydrogen transport via diffusion (extracellular to periplasm) (R_H2tex)
+	
+	H2 -> H2
+
+--------- H+ (M_h_e) ----------
+from :
+* NADH dehydrogenase (R_NADHDH)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone -> H+ + Nicotinamide adenine dinucleotideUbiquinol
+* Ferredoxin:NAD oxidoreductase ( 2 protons traslocation) (R_RNF)
+	
+	H+Nicotinamide adenine dinucleotideFerredoxin (reduced form 4:2) -> H+ + Nicotinamide adenine dinucleotide - reducedFerredoxin (oxidized form 4:2)
+
+to :
+* Diacetyl transport out via proton antiport (R_DACTt3)
+	
+	H+ + Diacetyl -> Diacetyl + H+
+* Formate transport out via proton antiport (R_FORt3)
+	
+	H+ + Formate -> Formate + H+
+* Proton transport via diffusion (extracellular to periplasm) (R_Htex)
+	
+	H+ -> H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium

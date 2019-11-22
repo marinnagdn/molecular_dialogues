@@ -1,0 +1,111 @@
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Cuabc (R_Cuabc)
+	
+	Cu2+ + ATPH2O -> ADPCu2+H+Phosphate
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate
+
+--------- Succinate (M_succ_e) ----------
+from :
+* TARTRt7 (R_TARTRt7)
+	
+	L-tartrate + Succinate -> Succinate + L-tartrate
+
+to :
+* Succinate transport via ABC system (R_SUCCabc)
+	
+	Succinate + ATPH2O -> ADPH+PhosphateSuccinate
+
+--------- D-Glucose (M_glc__D_e) ----------
+from :
+* Beta glucosidase  cellobiose  (R_BG_CELLB)
+	
+	H2OCellobiose -> D-Glucose
+
+to :
+* GLCabc (R_GLCabc)
+	
+	D-Glucose + ATPH2O -> ADPD-GlucoseH+Phosphate
+
+--------- Spermidine (M_spmd_e) ----------
+from :
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+to :
+* Spermidine transport via ABC system (R_SPMDabc)
+	
+	Spermidine + ATPH2O -> ADPH+PhosphateSpermidine
+
+--------- H+ (M_h_e) ----------
+from :
+* NADH dehydrogenase (R_NADHDH)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone -> H+ + Nicotinamide adenine dinucleotideUbiquinol
+* Ferredoxin:NAD oxidoreductase ( 2 protons traslocation) (R_RNF)
+	
+	H+Nicotinamide adenine dinucleotideFerredoxin (reduced form 4:2) -> H+ + Nicotinamide adenine dinucleotide - reducedFerredoxin (oxidized form 4:2)
+
+to :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Nitrite transport out via proton antiport (R_NO2t3)
+	
+	H+ + Nitrite -> Nitrite + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Magnesium (M_mg2_e) ----------
+from :
+* MGt5 (R_MGt5)
+	
+	Magnesium -> Magnesium
+
+to :
+* Magnesium transport via ABC system (R_MG2abc)
+	
+	Magnesium + ATPH2O -> ADPH+MagnesiumPhosphate
+
+--------- D-Ribose (M_rib__D_e) ----------
+from :
+* D ribose transport out via ABC system (R_RIBabc1)
+	
+	ATPH2OD-Ribose -> D-Ribose + ADPH+Phosphate
+
+to :
+* D-ribose transport via ABC system (R_RIBabc)
+	
+	D-Ribose + ATPH2O -> ADPH+PhosphateD-Ribose
+* Ribose transport via diffusion (extracellular to periplasm) (R_RIBtex)
+	
+	D-Ribose -> D-Ribose

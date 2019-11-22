@@ -1,0 +1,205 @@
+----------- common_ANT1_ANT2_notNW_interactions.txt : -----------
+Eggerthella lenta - Eubacterium dolichum
+Cronobacter dublinensis - Enterobacter arachidis
+----------- common_NW_ANT1_ANT2_interactions.txt : -----------
+Actinobacillus parahaemolyticus - Haemophilus parainfluenzae
+Bacteroides eggerthii - Bacteroides uniformis
+* Bacteroides eggerthii file not found in the database
+Bifidobacterium adolescentis - Bifidobacterium longum
+Bifidobacterium adolescentis - Bifidobacterium pseudolongum
+----------- common_NW_ANT1_notANT2_interactions.txt : -----------
+Blautia producta - Eubacterium dolichum
+----------- common_NW_ANT2_notANT1_interactions.txt : -----------
+Enterococcus casseliflavus - Aggregatibacter segnis
+* Aggregatibacter segnis file not found in the database
+----------- unique_ANT1_interactions.txt : -----------
+Corynebacterium durum - Clostridium methylpentosum
+Peptostreptococcus anaerobius - Campylobacter ureolyticus
+Clostridium butyricum - Pasteurella multocida
+Veillonella dispar - Campylobacter rectus
+Clostridium hungatei - Campylobacter rectus
+* Campylobacter rectus file not found in the database
+Robinsoniella peoriensis - Clostridium difficile
+* Clostridium difficile file not found in the database
+Enterococcus casseliflavus - Pasteurella multocida
+Streptococcus anginosus - Desulfovibrio D168
+* Desulfovibrio D168 file not found in the database
+Halomonas pacifica - Acinetobacter lwoffii
+Alistipes massiliensis - Ruminococcus bromii
+* Alistipes massiliensis file not found in the database
+Cronobacter dublinensis - Halomonas pacifica
+Clostridium perfringens - Veillonella parvula
+Bifidobacterium breve - Peptostreptococcus anaerobius
+Faecalibacterium prausnitzii - Campylobacter rectus
+* Campylobacter rectus file not found in the database
+Bacteroides barnesiae - Parabacteroides gordonii
+* Parabacteroides gordonii file not found in the database
+Clostridium cocleatum - Coprobacillus cateniformis
+* Coprobacillus cateniformis file not found in the database
+Actinobacillus parahaemolyticus - Pasteurella multocida
+* Actinobacillus parahaemolyticus file not found in the database
+Blautia producta - Ruminococcus gnavus
+Rothia aeria - Rothia dentocariosa
+* Rothia aeria file not found in the database
+Clostridium hathewayi - Cronobacter turicensis
+Clostridium tyrobutyricum - Pyramidobacter piscolens
+Corynebacterium durum - Rothia aeria
+* Rothia aeria file not found in the database
+Desulfovibrio D168 - Pyramidobacter piscolens
+* Desulfovibrio D168 file not found in the database
+Cronobacter turicensis - Aggregatibacter segnis
+Enterococcus casseliflavus - Halomonas pacifica
+* Halomonas pacifica file not found in the database
+Bacteroides ovatus - Bacteroides uniformis
+Prevotella melaninogenica - Prevotella stercorea
+* Prevotella melaninogenica file not found in the database
+Bacteroides acidifaciens - Clostridium saccharogumia
+* Bacteroides acidifaciens file not found in the database
+Bulleidia p-1630-c5 - Acinetobacter johnsonii
+* Bulleidia p-1630-c5 file not found in the database
+Clostridium hathewayi - Eubacterium dolichum
+* Clostridium hathewayi file not found in the database
+Lactococcus garvieae - Helicobacter pullorum
+Dorea formicigenerans - Veillonella dispar
+* Veillonella dispar file not found in the database
+Veillonella dispar - Akkermansia muciniphila
+* Veillonella dispar file not found in the database
+Peptostreptococcus anaerobius - Enterobacter ludwigii
+* Enterobacter ludwigii file not found in the database
+Clostridium hathewayi - Robinsoniella peoriensis
+* Clostridium hathewayi file not found in the database
+Nelumbo nucifera - Klebsiella oxytoca
+* Nelumbo nucifera file not found in the database
+Clostridium botulinum - Clostridium tyrobutyricum
+Ruminococcus bromii - Desulfovibrio D168
+* Desulfovibrio D168 file not found in the database
+Rothia aeria - Campylobacter ureolyticus
+* Rothia aeria file not found in the database
+Cronobacter turicensis - Enterobacter arachidis
+Bacteroides eggerthii - Prevotella copri
+* Bacteroides eggerthii file not found in the database
+Clostridium botulinum - Clostridium perfringens
+Clostridium maritimum - Aggregatibacter pneumotropica
+Parabacteroides gordonii - Helicobacter pullorum
+* Parabacteroides gordonii file not found in the database
+Peptostreptococcus anaerobius - Citrobacter freundii
+Butyricicoccus pullicaecorum - Pasteurella multocida
+Clostridium saccharogumia - Halomonas pacifica
+* Halomonas pacifica file not found in the database
+Bifidobacterium breve - Lactobacillus zeae
+* Lactobacillus zeae file not found in the database
+Clostridium perfringens - Halomonas pacifica
+* Halomonas pacifica file not found in the database
+Rothia aeria - Clostridium maritimum
+Veillonella dispar - Eubacterium dolichum
+* Veillonella dispar file not found in the database
+Bulleidia p-1630-c5 - Spirodela polyrhiza
+Robinsoniella peoriensis - Cronobacter turicensis
+* Cronobacter turicensis file not found in the database
+Variovorax paradoxus - Xylophilus ampelinus
+----------- unique_ANT2_interactions.txt : -----------
+Bacteroides coprophilus - Coprococcus catus
+* Coprococcus catus file not found in the database
+Collinsella aerofaciens - Eggerthella lenta
+Alistipes massiliensis - Desulfovibrio D168
+Streptococcus anginosus - Clostridium hungatei
+Parabacteroides gordonii - Lactobacillus brevis
+* Parabacteroides gordonii file not found in the database
+Enterobacter ludwigii - Klebsiella oxytoca
+* Enterobacter ludwigii file not found in the database
+Clostridium hungatei - Enterobacter arachidis
+* Enterobacter arachidis file not found in the database
+Lactobacillus iners - Clostridium neonatale
+Enterobacter arachidis - Pantoea agglomerans
+* Enterobacter arachidis file not found in the database
+Bacteroides barnesiae - Cronobacter dublinensis
+* Cronobacter dublinensis file not found in the database
+Clostridium difficile - Aggregatibacter segnis
+Clostridium perfringens - Xylophilus ampelinus
+Veillonella parvula - Actinobacillus parahaemolyticus
+* Actinobacillus parahaemolyticus file not found in the database
+Janthinobacterium lividum - Enterobacter cloacae
+* Janthinobacterium lividum file not found in the database
+Janthinobacterium lividum - Halomonas salifodinae
+Bacteroides barnesiae - Serratia marcescens
+Faecalibacterium prausnitzii - Coprobacillus cateniformis
+* Coprobacillus cateniformis file not found in the database
+Parabacteroides gordonii - Lactococcus garvieae
+* Parabacteroides gordonii file not found in the database
+Alistipes massiliensis - Clostridium perfringens
+* Alistipes massiliensis file not found in the database
+Rothia mucilaginosa - Xylophilus ampelinus
+Ruminococcus callidus - Clostridium saccharogumia
+Ruminococcus torques - Eubacterium dolichum
+Bacteroides uniformis - Parabacteroides distasonis
+Bulleidia moorei - Coprobacillus cateniformis
+----------- unique_interactions.txt : -----------
+Cronobacter dublinensis - Escherichia coli
+* Cronobacter dublinensis file not found in the database
+----------- unique_NW_interactions.txt : -----------
+Eggerthella lenta - Clostridium cocleatum
+Prevotella tannerae - Clostridium botulinum
+* Prevotella tannerae file not found in the database
+Rothia mucilaginosa - Actinobacillus parahaemolyticus
+* Actinobacillus parahaemolyticus file not found in the database
+Prevotella nigrescens - Butyricicoccus pullicaecorum
+Oxalobacter formigenes - Aggregatibacter pneumotropica
+* Aggregatibacter pneumotropica file not found in the database
+Clostridium hungatei - Bulleidia p-1630-c5
+* Bulleidia p-1630-c5 file not found in the database
+Enterococcus casseliflavus - Ruminococcus gnavus
+Clostridium difficile - Clostridium cocleatum
+* Clostridium difficile file not found in the database
+Lactobacillus zeae - Clostridium butyricum
+* Lactobacillus zeae file not found in the database
+Prevotella nigrescens - Nelumbo nucifera
+* Nelumbo nucifera file not found in the database
+Enterococcus casseliflavus - Cronobacter dublinensis
+* Cronobacter dublinensis file not found in the database
+Eggerthella lenta - Ruminococcus gnavus
+Lactococcus garvieae - Megamonas hypermegale
+Coprobacillus cateniformis - Eubacterium dolichum
+* Coprobacillus cateniformis file not found in the database
+Bacteroides coprophilus - Lactobacillus zeae
+* Lactobacillus zeae file not found in the database
+Campylobacter ureolyticus - Escherichia coli
+Parabacteroides gordonii - Dechloromonas fungiphilus
+Enterococcus casseliflavus - Faecalibacterium prausnitzii
+Mitsuokella multacida - Eubacterium cylindroides
+* Eubacterium cylindroides file not found in the database
+Dorea formicigenerans - Faecalibacterium prausnitzii
+Bacteroides barnesiae - Prevotella melaninogenica
+* Prevotella melaninogenica file not found in the database
+Lactobacillus plantarum - Oxalobacter formigenes
+Enterococcus casseliflavus - Coprobacillus cateniformis
+* Coprobacillus cateniformis file not found in the database
+Blautia producta - Clostridium cocleatum
+Dorea formicigenerans - Coprobacillus cateniformis
+* Coprobacillus cateniformis file not found in the database
+Prevotella nigrescens - Prevotella stercorea
+Bifidobacterium animalis - Acinetobacter lwoffii
+* Acinetobacter lwoffii file not found in the database
+Roseburia faecis - Faecalibacterium prausnitzii
+Shuttleworthia satelles - Ruminococcus callidus
+Prevotella stercorea - Clostridium hungatei
+Alistipes massiliensis - Mitsuokella multacida
+* Alistipes massiliensis file not found in the database
+Lactobacillus iners - Coprobacillus cateniformis
+* Coprobacillus cateniformis file not found in the database
+Prevotella melaninogenica - Lactobacillus zeae
+Clostridium butyricum - Nelumbo nucifera
+* Nelumbo nucifera file not found in the database
+Prevotella nigrescens - Myristica fragrans
+* Myristica fragrans file not found in the database
+Enterococcus casseliflavus - Clostridium cocleatum
+Lactobacillus brevis - Lactobacillus plantarum
+Veillonella parvula - Coprobacillus cateniformis
+* Coprobacillus cateniformis file not found in the database
+Lactococcus garvieae - Bulleidia moorei
+* Bulleidia moorei file not found in the database
+Streptococcus anginosus - Clostridium botulinum
+Escherichia blattae - Plesiomonas shigelloides
+* Escherichia blattae file not found in the database
+Cronobacter dublinensis - Escherichia coli
+* Cronobacter dublinensis file not found in the database
+Clostridium perfringens - Ruminococcus flavefaciens

@@ -1,0 +1,25 @@
+Species 1	Species 2	ANT2 correlation score
+Bacteroides coprophilus	Coprococcus catus	0.75
+Collinsella aerofaciens	Eggerthella lenta	-0.61
+Alistipes massiliensis	Desulfovibrio D168	0.58
+Streptococcus anginosus	Clostridium hungatei	0.68
+Parabacteroides gordonii	Lactobacillus brevis	0.0
+Enterobacter ludwigii	Klebsiella oxytoca	0.0
+Clostridium hungatei	Enterobacter arachidis	0.86
+Lactobacillus iners	Clostridium neonatale	0.8
+Enterobacter arachidis	Pantoea agglomerans	1.0
+Bacteroides barnesiae	Cronobacter dublinensis	0.75
+Clostridium difficile	Aggregatibacter segnis	0.53
+Clostridium perfringens	Xylophilus ampelinus	-0.84
+Veillonella parvula	Actinobacillus parahaemolyticus	0.59
+Janthinobacterium lividum	Enterobacter cloacae	1.0
+Janthinobacterium lividum	Halomonas salifodinae	0.0
+Bacteroides barnesiae	Serratia marcescens	-1.0
+Faecalibacterium prausnitzii	Coprobacillus cateniformis	-0.62
+Parabacteroides gordonii	Lactococcus garvieae	0.96
+Alistipes massiliensis	Clostridium perfringens	0.49
+Rothia mucilaginosa	Xylophilus ampelinus	-0.69
+Ruminococcus callidus	Clostridium saccharogumia	0.66
+Ruminococcus torques	Eubacterium dolichum	0.59
+Bacteroides uniformis	Parabacteroides distasonis	0.6
+Bulleidia moorei	Coprobacillus cateniformis	-0.66

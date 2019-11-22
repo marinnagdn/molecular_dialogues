@@ -1,0 +1,5 @@
+
+--------- Potassium (M_k_e) ----------
+from :
+* Potassium transport out via proton antiportKt3r (R_Kt3r)
+	

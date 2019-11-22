@@ -1,0 +1,37 @@
+Cadmium
+Choline sulfate
+Citrate
+Cu2+
+D-Fructose
+D-Glucosamine
+D-Glucose
+D-Mannitol
+D-Mannose
+D-Xylose
+Enterochelin
+Fe-enterobactin
+Fe2+
+Fe3+
+Formate
+Fumarate
+H+
+H2O
+L-Alanine
+L-Glutamate
+L-Malate
+L-Methionine
+L-Proline
+L-Threonine
+Maltose
+Mn2+
+Nickel
+Phosphate
+Potassium
+Raffinose C18H32O16
+Ribitol
+Sodium
+Spermidine
+Succinate
+Sucrose
+Uracil
+Zinc

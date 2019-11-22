@@ -1,0 +1,39 @@
+Calcium
+Citrate
+Cys Gly C5H10N2O3S
+Cytidine
+D-Alanine
+D-Alanyl-D-alanine
+D-Fructose
+D-Glucose
+D-Sorbitol
+Fe2+ mitochondria
+Guanosine
+H+
+H2O H2O
+Inosine
+Iron (Fe3+)
+L-Alanine
+L-Arginine
+L-Glutamate
+L-Glutamine
+L-Lactate
+L-Lysine
+L-Methionine
+L-Proline
+L-Serine
+L-Threonine
+Maltose C12H22O11
+Maltotriose C18H32O16
+N-Acetylneuraminate
+Phosphate
+Potassium
+Ribitol
+Riboflavin C17H20N4O6
+Sodium
+Succinate
+Sucrose C12H22O11
+Sulfate
+Thiamin
+Trehalose
+Zinc

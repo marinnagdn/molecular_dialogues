@@ -1,0 +1,41 @@
+Beta-Alanine
+Calcium
+Citrate
+Cys Gly C5H10N2O3S
+D-Alanine
+D-Alanyl-D-alanine
+D-Fructose
+Deoxycytidine
+Dodecanoate (n-C12:0)
+Fe2+ mitochondria
+Formate
+H+
+H2O H2O
+Hexadecanoate (n-C16:0)
+Hexadecenoate (n-C16:1)
+Iron (Fe3+)
+L-Alanine
+L-Arginine
+L-Glutamate
+L-Isoleucine
+L-Lactate
+L-Leucine
+L-Lysine
+L-Methionine
+L-Proline
+L-Threonine
+L-Valine
+Nicotinate
+Octadecenoate (n-C18:1)
+Ornithine
+Phosphate
+Potassium
+Protoheme C34H30FeN4O4
+Riboflavin C17H20N4O6
+Sodium
+Spermidine
+Succinate
+Sulfate
+Tetradecanoate (n-C14:0)
+Tetradecenoate (n-C14:1)
+Zinc

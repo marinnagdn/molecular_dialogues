@@ -1,0 +1,5 @@
+Species 1	Species 2	NW correlation score	ANT1 correlation score	ANT2 correlation score	
+Actinobacillus parahaemolyticus	Haemophilus parainfluenzae	0.64	0.55	0.77
+Bacteroides eggerthii	Bacteroides uniformis	0.72	0.7	0.77
+Bifidobacterium adolescentis	Bifidobacterium longum	0.89	0.86	0.92
+Bifidobacterium adolescentis	Bifidobacterium pseudolongum	0.82	0.75	0.81

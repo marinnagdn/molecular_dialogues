@@ -1,0 +1,36 @@
+Citrate
+D-Alanine
+D-Alanyl-D-alanine
+D-Fructose
+D-Glucose
+D-Ribose
+D-Sorbitol
+Fe2+ mitochondria
+H+
+H2O H2O
+Iron (Fe3+)
+L-Alanine
+L-Arginine
+L-Aspartate
+L-Glutamate
+L-Glutamine
+L-Isoleucine
+L-Lactate
+L-Leucine
+L-Lysine
+L-Methionine
+L-Proline
+L-Threonine
+L-Valine
+Maltose C12H22O11
+N-Acetylneuraminate
+Phosphate
+Potassium
+Putrescine
+Ribitol
+Sodium
+Spermidine
+Succinate
+Sulfate
+Taurine C2H7NO3S
+Zinc

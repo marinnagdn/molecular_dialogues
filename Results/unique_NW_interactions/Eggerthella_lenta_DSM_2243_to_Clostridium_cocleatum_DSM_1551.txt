@@ -1,0 +1,87 @@
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+
+--------- Co2+ (M_cobalt2_e) ----------
+from :
+* COBALTt5 (R_COBALTt5)
+	
+	Co2+ -> Co2+
+
+to :
+* Cobalt transport via ABC system (R_COabc)
+	
+	Co2+ + ATPH2O -> ADPCo2+H+Phosphate
+
+--------- H+ (M_h_e) ----------
+from :
+* Chloride transport via proton antiport (2:1) (periplasm) (R_CLt3r_2)
+	
+	Chloride + H+ -> H+ + Chloride
+* Formate dehydrogenase (quinone-8: 2 protons) (R_FDH2)
+	
+	FormateH+Ubiquinone-8 -> H+ + CO2Ubiquinol-8
+* Hydrogenase (ubiquinone-8: 2 protons) (R_HYD1)
+	
+	H+H2Ubiquinone-8 -> H+ + Ubiquinol-8
+* Hydrogenase (menaquinone8: 2 protons) (R_HYD2)
+	
+	H+H2Menaquinone 8 -> H+ + Menaquinol 8
+* Hydrogenase (Demethylmenaquinone-8: 2 protons) (R_HYD3)
+	
+	2-Demethylmenaquinone 8H+H2 -> H+ + 2-Demethylmenaquinol 8
+* Ferredoxin:NAD oxidoreductase ( 2 protons traslocation) (R_RNF)
+	
+	H+Nicotinamide adenine dinucleotideFerredoxin (reduced form 4:2) -> H+ + Nicotinamide adenine dinucleotide - reducedFerredoxin (oxidized form 4:2)
+
+to :
+* Nitrite transport out via proton antiport (R_NO2t3)
+	
+	H+ + Nitrite -> Nitrite + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Magnesium (M_mg2_e) ----------
+from :
+* MGt5 (R_MGt5)
+	
+	Magnesium -> Magnesium
+
+to :
+* Magnesium transport via ABC system (R_MG2abc)
+	
+	Magnesium + ATPH2O -> ADPH+MagnesiumPhosphate
+* Magnesium (Mg+2) transport via diffusion (extracellular to periplasm) (R_MG2tex)
+	
+	Magnesium -> Magnesium

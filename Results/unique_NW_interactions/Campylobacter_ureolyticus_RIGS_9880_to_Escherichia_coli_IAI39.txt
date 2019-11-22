@@ -1,0 +1,197 @@
+
+--------- Co2+ (M_cobalt2_e) ----------
+from :
+* COBALTt5 (R_COBALTt5)
+	
+	Co2+ -> Co2+
+
+to :
+* Cobalt (Co+2) transport via diffusion (extracellular to periplasm) (R_COBALT2tex)
+	
+	Co2+ -> Co2+
+
+--------- H+ (M_h_e) ----------
+from :
+* Succinate efflux via proton symport (R_SUCCt2b)
+	
+	H+Succinate -> H+Succinate
+
+to :
+* Succinate transport via proton symport (2 H) (R_SUCCt2_2)
+	
+	H+Succinate -> H+Succinate
+* Succintate transport via proton symport (3 H) (R_SUCCt2_3)
+	
+	H+Succinate -> H+Succinate
+* Succinate transport via proton symport (R_SUCCt2r)
+	
+	H+Succinate -> H+Succinate
+
+--------- Succinate (M_succ_e) ----------
+from :
+* Succinate efflux via proton symport (R_SUCCt2b)
+	
+	H+Succinate -> H+Succinate
+
+to :
+* Succinate transport via proton symport (2 H) (R_SUCCt2_2)
+	
+	H+Succinate -> H+Succinate
+* Succintate transport via proton symport (3 H) (R_SUCCt2_3)
+	
+	H+Succinate -> H+Succinate
+* Succinate transport via proton symport (R_SUCCt2r)
+	
+	H+Succinate -> H+Succinate
+
+--------- 2-Oxoglutarate (M_akg_e) ----------
+from :
+* Alpha ketoglutaratemalate transporter (R_AKGMAL)
+	
+	L-Malate + 2-Oxoglutarate -> 2-Oxoglutarate + L-Malate
+
+to :
+* Alpha-ketoglutarate transport via diffusion (extracellular to periplasm) (R_AKGtex)
+	
+	2-Oxoglutarate -> 2-Oxoglutarate
+
+--------- Phosphate (M_pi_e) ----------
+from :
+* Glucose 1 phosphate transport via phosphate antiport (R_G1Pt6_2)
+	
+	D-Glucose 1-phosphate + Phosphate -> Phosphate + D-Glucose 1-phosphate
+
+to :
+* Phosphate transport via ABC system (R_PIabc)
+	
+	Phosphate + ATPH2O -> ADPH+Phosphate
+* Phosphate transport via diffusion (extracellular to periplasm) (R_PItex)
+	
+	Phosphate -> Phosphate
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+
+--------- H+ (M_h_e) ----------
+from :
+* BC10 new (R_BC10_new)
+	
+	H+Ferricytochrome c-553Menaquinol 6 -> H+ + Menaquinone 6Ferrocytochrome c-553
+* Formate dehydrogenase (quinone-8: 2 protons) (R_FDH2)
+	
+	FormateH+Ubiquinone-8 -> H+ + CO2Ubiquinol-8
+* HYDA1 (R_HYDA1)
+	
+	H2 + H+Menaquinone 6 -> H+ + Menaquinol 6
+* NADH dehydrogenase (R_NADHDH)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone -> H+ + Nicotinamide adenine dinucleotideUbiquinol
+
+to :
+* Proton transport via diffusion (extracellular to periplasm) (R_Htex)
+	
+	H+ -> H+
+* LYSt3r (R_LYSt3r)
+	
+	H+ + L-Lysine -> L-Lysine + H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 1.5) (R_NAt3_15)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+* NAD(P) transhydrogenase (R_THD2)
+	
+	H+ + Nicotinamide adenine dinucleotide - reducedNicotinamide adenine dinucleotide phosphate -> H+Nicotinamide adenine dinucleotideNicotinamide adenine dinucleotide phosphate - reduced
+
+--------- Spermidine (M_spmd_e) ----------
+from :
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+to :
+* Spermidine transport via ABC system (R_SPMDabc)
+	
+	Spermidine + ATPH2O -> ADPH+PhosphateSpermidine
+* Spermidine transport via diffusion (extracellular to periplasm) (R_SPMDtex)
+	
+	Spermidine -> Spermidine
+
+--------- Sodium (M_na1_e) ----------
+from :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 1.5) (R_NAt3_15)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+
+to :
+* Sodium transport via diffusion (extracellular to periplasm) (R_NAtex)
+	
+	Sodium -> Sodium
+
+--------- 4-Aminobutanoate (M_4abut_e) ----------
+from :
+* 4-aminobutyrate/glutamate antiport (R_GLUABUTt7)
+	
+	L-Glutamate + 4-Aminobutanoate -> 4-Aminobutanoate + L-Glutamate
+
+to :
+* 4-aminobutyrate transport via diffusion (extracellular to periplasm) (R_ABUTtex)
+	
+	4-Aminobutanoate -> 4-Aminobutanoate
+
+--------- Succinate (M_succ_e) ----------
+from :
+* SUCFUMt (R_SUCFUMt)
+	
+	Fumarate + Succinate -> Succinate + Fumarate
+
+to :
+* Succinate transport via ABC system (R_SUCCabc)
+	
+	Succinate + ATPH2O -> ADPH+PhosphateSuccinate
+* Succinate transport via diffusion (extracellular to periplasm) (R_SUCCtex)
+	
+	Succinate -> Succinate
+
+--------- Magnesium (M_mg2_e) ----------
+from :
+* MGt5 (R_MGt5)
+	
+	Magnesium -> Magnesium
+
+to :
+* Magnesium (Mg+2) transport via diffusion (extracellular to periplasm) (R_MG2tex)
+	
+	Magnesium -> Magnesium
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium

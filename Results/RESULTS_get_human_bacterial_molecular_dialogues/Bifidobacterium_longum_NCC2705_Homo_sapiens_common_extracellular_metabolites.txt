@@ -1,0 +1,34 @@
+Adenosine
+Calcium
+Citrate
+Cytidine
+D-Galactose
+D-Glucose
+D-Ribose
+D-Sorbitol
+Fe2+ mitochondria
+Formate
+H+
+H2O H2O
+L-Alanine
+L-Arginine
+L-Glutamate
+L-Glutamine
+L-Isoleucine
+L-Lactate
+L-Leucine
+L-Methionine
+L-Proline
+L-Threonine
+L-Valine
+Lactose C12H22O11
+Maltose C12H22O11
+Maltotriose C18H32O16
+N-Acetylneuraminate
+Phosphate
+Potassium
+Putrescine
+Riboflavin C17H20N4O6
+Sodium
+Succinate
+Zinc

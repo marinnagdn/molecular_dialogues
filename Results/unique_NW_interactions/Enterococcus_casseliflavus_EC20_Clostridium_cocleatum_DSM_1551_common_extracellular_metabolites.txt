@@ -1,0 +1,57 @@
+Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc)
+Cadmium
+Calcium
+Citrate
+Co2+
+Cu2+
+Cys-Gly
+D-Alanine
+D-Alanyl-D-alanine
+D-Fructose
+D-Glucosamine
+D-Glucose
+D-Mannose
+Fe2+
+Fe3+
+Formate
+Guanine
+H+
+H2O
+Hypoxanthine
+L-Alanine
+L-Arabinose
+L-Arginine
+L-Glutamate
+L-Malate
+L-Methionine
+Laminaribiose
+Magnesium
+Maltose
+Maltotriose
+Phosphate
+Phthiocerol dimycocerosate A (Mtb)
+Potassium
+Pullulan (n=1200 repeat units, alpha-1,4 and alph-1,6 bounds)
+Raffinose C18H32O16
+Ribitol
+Riboflavin
+Sodium
+Spermidine
+Sucrose
+Three disacharide linked murein units (pentapeptide crosslinked tetrapeptide (A2pm-&gt;D-ala) tetrapeptide corsslinked tetrapeptide (A2pm-&gt;D-ala)) (middle of chain)
+Three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide (A2pm-&gt;D-ala) &amp; tetrapeptide corsslinked tetrapeptide (A2pm-&gt;D-ala)) (middle of chain)
+Three linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)
+Two disacharide linked murein units, pentapeptide corsslinked tripeptide (A2pm-&gt;A2pm) (middle of chain)
+Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm-&gt;D-ala) (middle of chain)
+Two disacharide linked murein units, tetrapeptide corsslinked tetrapeptide (A2pm-&gt;D-ala) (middle of chain)
+Two linked disacharide pentapeptide and tetrapeptide murein units (uncrosslinked, middle of chain)
+Two linked disacharide pentapeptide and tripeptide murein units (uncrosslinked, middle of chain)
+Two linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)
+Two linked disacharide tetrapeptide and tripeptide murein units (uncrosslinked, middle of chain)
+Two linked disacharide tetrapeptide murein units (uncrosslinked, middle of chain)
+Undecaprenyl diphosphate
+Undecaprenyl phosphate
+Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala
+Uracil
+Xanthine
+Zinc

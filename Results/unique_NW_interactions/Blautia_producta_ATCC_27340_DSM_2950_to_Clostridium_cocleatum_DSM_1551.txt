@@ -1,0 +1,86 @@
+
+--------- Magnesium (M_mg2_e) ----------
+from :
+* MGt5 (R_MGt5)
+	
+	Magnesium -> Magnesium
+
+to :
+* Magnesium transport via ABC system (R_MG2abc)
+	
+	Magnesium + ATPH2O -> ADPH+MagnesiumPhosphate
+* Magnesium (Mg+2) transport via diffusion (extracellular to periplasm) (R_MG2tex)
+	
+	Magnesium -> Magnesium
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate
+
+--------- D-Ribose (M_rib__D_e) ----------
+from :
+* D ribose transport out via ABC system (R_RIBabc1)
+	
+	ATPH2OD-Ribose -> D-Ribose + ADPH+Phosphate
+
+to :
+* Ribose transport via diffusion (extracellular to periplasm) (R_RIBtex)
+	
+	D-Ribose -> D-Ribose
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+
+--------- H+ (M_h_e) ----------
+from :
+* NADH dehydrogenase (R_NADHDH)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone -> H+ + Nicotinamide adenine dinucleotideUbiquinol
+* Ferredoxin:NAD oxidoreductase ( 2 protons traslocation) (R_RNF)
+	
+	H+Nicotinamide adenine dinucleotideFerredoxin (reduced form 4:2) -> H+ + Nicotinamide adenine dinucleotide - reducedFerredoxin (oxidized form 4:2)
+
+to :
+* Nitrite transport out via proton antiport (R_NO2t3)
+	
+	H+ + Nitrite -> Nitrite + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- Laminaribiose (M_lmn2_e) ----------
+from :
+* Laminarinase (extracellular) (R_LMNe)
+	
+	H2OLaminarin (n=30 repeat units, beta -1,3 glc) -> Laminaribiose
+
+to :
+* Laminoribiose transport via ABC-transporter (R_LMN2abc)
+	
+	Laminaribiose + ATPH2O -> ADPH+PhosphateLaminaribiose

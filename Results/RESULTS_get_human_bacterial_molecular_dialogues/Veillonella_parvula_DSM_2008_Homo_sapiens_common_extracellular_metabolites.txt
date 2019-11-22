@@ -1,0 +1,31 @@
+Citrate
+Cys Gly C5H10N2O3S
+D-Alanine
+D-Fructose
+D-Ribose
+Fe2+ mitochondria
+H+
+H2O H2O
+Iron (Fe3+)
+L-Arginine
+L-Aspartate
+L-Glutamate
+L-Glutamine
+L-Lactate
+L-Lysine
+L-Methionine
+L-Proline
+L-Serine
+L-Threonine
+Nicotinamide
+Phosphate
+Potassium
+Protoheme C34H30FeN4O4
+Putrescine
+Sodium
+Spermidine
+Succinate
+Sucrose C12H22O11
+Sulfate
+Thiamin
+Zinc

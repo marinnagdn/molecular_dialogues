@@ -1,0 +1,2 @@
+Species 1	Species 2	NW correlation score	ANT2 correlation score
+Enterococcus casseliflavus	Aggregatibacter segnis	1.0	-0.89

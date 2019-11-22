@@ -1,0 +1,137 @@
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+* Cadminum transport out via antiport (R_CD2t4)
+	
+	H+Potassium + Cadmium -> Cadmium + H+Potassium
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- L-Arabinose (M_arab__L_e) ----------
+from :
+* Alpha N arabinofuranosidase (R_LAAF)
+	
+	H2OAlpha L Arabinan C15H24O12 -> L-Arabinose
+
+to :
+* L-arabinose transport via diffusion (extracellular to periplasm) (R_ARBtex)
+	
+	L-Arabinose -> L-Arabinose
+
+--------- Spermidine (M_spmd_e) ----------
+from :
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+to :
+* Spermidine transport via ABC system (R_SPMDabc)
+	
+	Spermidine + ATPH2O -> ADPH+PhosphateSpermidine
+* Spermidine transport via diffusion (extracellular to periplasm) (R_SPMDtex)
+	
+	Spermidine -> Spermidine
+
+--------- Zinc (M_zn2_e) ----------
+from :
+* Zinc transport out via antiport (R_ZN2t4)
+	
+	H+Potassium + Zinc -> Zinc + H+Potassium
+
+to :
+* Zinc (Zn+2) transport via diffusion (extracellular to periplasm) (R_Zn2tex)
+	
+	Zinc -> Zinc
+* Zinc transport via ABC system (R_ZNabc)
+	
+	Zinc + ATPH2O -> ADPH+PhosphateZinc
+
+--------- Glycerol (M_glyc_e) ----------
+from :
+* Glycerol transport via channel (R_GLYCt)
+	
+	Glycerol -> Glycerol
+
+to :
+* Glycerol transport via uniport (facilitated diffusion) (R_GLYCt1)
+	
+	Glycerol -> Glycerol
+
+--------- Gamma-butyrobetaine (M_gbbtn_e) ----------
+from :
+* Carnitine/butyrobetaine antiporter (R_CRNt7)
+	
+	L-Carnitine + Gamma-butyrobetaine -> Gamma-butyrobetaine + L-Carnitine
+
+to :
+* Gamma butyrobetaine transport in via ABC system (R_GBBTNabc)
+	
+	Gamma-butyrobetaine + ATPH2O -> ADPGamma-butyrobetaineH+Phosphate
+
+--------- Phosphate (M_pi_e) ----------
+from :
+* Glycerol-3-phosphate : phosphate antiporter (R_GLYC3Pt6)
+	
+	Glycerol 3-phosphate + Phosphate -> Phosphate + Glycerol 3-phosphate
+
+to :
+* Phosphate transport via ABC system (R_PIabc)
+	
+	Phosphate + ATPH2O -> ADPH+Phosphate
+* Phosphate transport via diffusion (extracellular to periplasm) (R_PItex)
+	
+	Phosphate -> Phosphate
+
+--------- H+ (M_h_e) ----------
+from :
+* Menaquinol oxidase  71 protons  (R_CYTB_B2)
+	
+	H+O2Menaquinol 7 C46H66O2 -> H+ + H2OMenaquinone 7 C46H64O2
+
+to :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 1.5) (R_NAt3_15)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+* Nitrite transport out via proton antiport (R_NO2t3)
+	
+	H+ + Nitrite -> Nitrite + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Cuabc (R_Cuabc)
+	
+	Cu2+ + ATPH2O -> ADPCu2+H+Phosphate
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate
+* Calcium (Ca+2) transport via diffusion (extracellular to periplasm) (R_CA2tex)
+	
+	Calcium -> Calcium

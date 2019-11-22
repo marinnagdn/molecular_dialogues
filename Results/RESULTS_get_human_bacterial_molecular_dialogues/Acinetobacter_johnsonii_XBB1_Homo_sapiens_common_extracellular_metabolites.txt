@@ -1,0 +1,26 @@
+Citrate
+D-Fructose
+D-Galactose
+D-Glucose
+Fe2+ mitochondria
+H+
+H2O H2O
+Iron (Fe3+)
+L-Alanine
+L-Arginine
+L-Aspartate
+L-Carnitine
+L-Glutamate
+L-Histidine
+L-Lysine
+L-Methionine
+L-Proline
+L-Serine
+L-Threonine
+Ornithine
+Phosphate
+Potassium
+Sodium
+Succinate
+Sulfate
+Zinc

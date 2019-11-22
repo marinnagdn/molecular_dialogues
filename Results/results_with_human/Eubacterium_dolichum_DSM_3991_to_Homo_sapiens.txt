@@ -1,0 +1,76 @@
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* Calcium (Ca+2) transport via diffusion (extracellular to periplasm) (R_CA2t)
+	
+	Calcium -> Calcium
+
+--------- L-Lactate (M_lac__L_e) ----------
+from :
+* Malate HNa lactate antiporter (R_MALt10)
+	
+	H+L-Malate + L-LactateSodium -> L-LactateSodium + H+L-Malate
+
+to :
+* L-lactate reversible transport via sodium symport (R_L_LACt4r)
+	
+	L-LactateSodium -> L-LactateSodium
+
+--------- Sodium (M_na1_e) ----------
+from :
+* Malate HNa lactate antiporter (R_MALt10)
+	
+	H+L-Malate + L-LactateSodium -> L-LactateSodium + H+L-Malate
+
+to :
+* L-lactate reversible transport via sodium symport (R_L_LACt4r)
+	
+	L-LactateSodium -> L-LactateSodium
+
+--------- D-Glucose (M_glc__D_e) ----------
+from :
+* Beta glucosidase  cellobiose  (R_BG_CELLB)
+	
+	H2OCellobiose -> D-Glucose
+
+to :
+* Glucose transport  uniport  (R_GLCt1)
+	
+	D-Glucose -> D-Glucose
+
+--------- H+ (M_h_e) ----------
+from :
+* Chloride transport via proton antiport (2:1) (periplasm) (R_CLt3r_2)
+	
+	Chloride + H+ -> H+ + Chloride
+* Ferredoxin:NAD oxidoreductase ( 2 protons traslocation) (R_RNF)
+	
+	H+Nicotinamide adenine dinucleotideFerredoxin (reduced form 4:2) -> H+ + Nicotinamide adenine dinucleotide - reducedFerredoxin (oxidized form 4:2)
+
+to :
+* L-carnitine outward transport (H+ antiport) (R_CRNtHa)
+	
+	H+ + L-Carnitine -> L-Carnitine + H+
+* Potassium transport out via proton antiport (R_Kt3r)
+	
+	H+ + Potassium -> Potassium + H+
+* Transport of Ornithine, Extracellular Space (R_ORN_Dte)
+	
+	H+ + D-Ornithine -> D-Ornithine + H+
+* Transport of Homocarnosine (R_HMCARNt)
+	
+	H+ + CalciumHomocarnosine -> CalciumHomocarnosine + H+
+* Proton diffusion (R_Ht)
+	
+	H+ -> H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Ammonia transport via proton antiport (R_NH4t3r)
+	
+	H+ + Ammonium -> Ammonium + H+

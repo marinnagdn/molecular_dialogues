@@ -1,0 +1,39 @@
+Adenosine
+Calcium
+Citrate
+Cys Gly C5H10N2O3S
+Cytidine
+D-Alanine
+D-Alanyl-D-alanine
+D-Fructose
+D-Glucose
+D-Ribose
+Deoxyadenosine
+Deoxycytidine
+Deoxyuridine
+Fe2+ mitochondria
+Glycerol
+H+
+H2O H2O
+Iron (Fe3+)
+L-Alanine
+L-Arginine
+L-Glutamate
+L-Histidine
+L-Lactate
+L-Lysine
+L-Methionine
+L-Proline
+L-Serine
+L-Threonine
+N-Acetylneuraminate
+Phosphate
+Potassium
+Riboflavin C17H20N4O6
+Sodium
+Sucrose C12H22O11
+Taurine C2H7NO3S
+Tetradecenoate (n-C14:1)
+Thymidine C10H14N2O5
+Uridine
+Zinc

@@ -1,0 +1,47 @@
+Alpha L Arabinan C15H24O12
+Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc)
+Calcium
+Citrate
+Cu2+
+D-Glucose
+D-Sorbitol
+D-Xylose
+Enterochelin
+Fe-enterobactin
+Fe2+
+Glycerol 3-phosphate
+Guanine
+H+
+H2O
+Hypoxanthine
+L-Alanine
+L-Arabinose
+L-Arginine
+L-Glutamate
+L-Glutamine
+L-Isoleucine
+L-Lactate
+L-Leucine
+L-Methionine
+L-Proline
+L-Threonine
+L-Valine
+Laminaribiose
+Magnesium
+Maltotriose
+Melibiose
+Mn2+
+Phosphate
+Potassium
+Raffinose C18H32O16
+Riboflavin
+Salmochelin-S4
+Salmochelin-S4-Fe-III
+Sodium
+Undecaprenyl diphosphate galactose-rhamnose-mannose-abequose-acetyl
+Uracil
+Xanthine
+Xylan (4 backbone units, 1 glcur side chain)
+Xylobiose
+Xylotriose
+Zinc

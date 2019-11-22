@@ -1,0 +1,120 @@
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate
+* Calcium (Ca+2) transport via diffusion (extracellular to periplasm) (R_CA2tex)
+	
+	Calcium -> Calcium
+
+--------- Spermidine (M_spmd_e) ----------
+from :
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+to :
+* Spermidine transport via ABC system (R_SPMDabc)
+	
+	Spermidine + ATPH2O -> ADPH+PhosphateSpermidine
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- H+ (M_h_e) ----------
+from :
+* NADH dehydrogenase (R_NADHDH)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone -> H+ + Nicotinamide adenine dinucleotideUbiquinol
+* Nitrate reductase (R_NTR3B)
+	
+	H+NitrateMenaquinol 7 C46H66O2 -> H+ + H2ONitriteMenaquinone 7 C46H64O2
+
+to :
+* L LACt3 (R_L_LACt3)
+	
+	H+ + L-Lactate -> L-Lactate + H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 1.5) (R_NAt3_15)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala (M_uaagmda_e) ----------
+from :
+* PBP substrate translocator (R_UAAGMDt)
+	
+	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala -> Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala
+
+to :
+* Murein polymerizing transglycosylase (R_MPTGex)
+	
+	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala -> H+Two linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)Undecaprenyl diphosphate
+
+--------- Magnesium (M_mg2_e) ----------
+from :
+* MGt5 (R_MGt5)
+	
+	Magnesium -> Magnesium
+
+to :
+* Magnesium transport via ABC system (R_MG2abc)
+	
+	Magnesium + ATPH2O -> ADPH+MagnesiumPhosphate
+* Magnesium (Mg+2) transport via diffusion (extracellular to periplasm) (R_MG2tex)
+	
+	Magnesium -> Magnesium
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+
+--------- Co2+ (M_cobalt2_e) ----------
+from :
+* COBALTt5 (R_COBALTt5)
+	
+	Co2+ -> Co2+
+
+to :
+* Cobalt transport via ABC system (R_COabc)
+	
+	Co2+ + ATPH2O -> ADPCo2+H+Phosphate
+
+--------- D-Alanine (M_ala__D_e) ----------
+from :
+* D alanyl aminopeptidase (R_DAAOP)
+	
+	D-Alanyl-D-alanineH2O -> D-Alanine
+
+to :
+* D-Alanine transport via diffusion (extracellular to periplasm) (R_DALAtex)
+	
+	D-Alanine -> D-Alanine

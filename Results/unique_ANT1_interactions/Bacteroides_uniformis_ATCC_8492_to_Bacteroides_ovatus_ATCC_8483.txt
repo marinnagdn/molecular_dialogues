@@ -1,0 +1,169 @@
+
+--------- Novobiocin (M_novbcn_e) ----------
+from :
+* Novobiocin transport via TolC system (R_NOVBCNtpp)
+	
+	H+Novobiocin -> Novobiocin + H+
+
+to :
+* Novobiocin transport via diffusion (extracellular to periplasm) (R_NOVBCNtex)
+	
+	Novobiocin -> Novobiocin
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+
+--------- Sodium (M_na1_e) ----------
+from :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+
+to :
+* Sodium transport via diffusion (extracellular to periplasm) (R_NAtex)
+	
+	Sodium -> Sodium
+
+--------- Rifampin (M_rfamp_e) ----------
+from :
+* Rifampin transport via TolC system (R_RFAMPtpp)
+	
+	H+Rifampin -> Rifampin + H+
+
+to :
+* Rifampin transport via diffusion (extracellular to periplasm) (R_RFAMPtex)
+	
+	Rifampin -> Rifampin
+
+--------- Beta-1,3/1,4-glucan (Barley, n=6, Glc beta1-&gt;3,4 Glc) (M_glucan6_e) ----------
+from :
+* Glucan hydrolysis by beta-1,4- and beta-1,3 glucosidase (R_GLS2e)
+	
+	H2OBeta-1,3/1,4-glucan (Barley, n=1500, Glc beta1-&gt;3,4 Glc) -> Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc)
+
+to :
+* Glucan transport via ATP transporter (R_GLUCAN2abc)
+	
+	Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc) + ATPH2O -> ADPH+PhosphateBeta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc)
+
+--------- 4-Aminobutanoate (M_4abut_e) ----------
+from :
+* 4-aminobutyrate/glutamate antiport (R_GLUABUTt7)
+	
+	L-Glutamate + 4-Aminobutanoate -> 4-Aminobutanoate + L-Glutamate
+
+to :
+* 4-aminobutyrate transport via diffusion (extracellular to periplasm) (R_ABUTtex)
+	
+	4-Aminobutanoate -> 4-Aminobutanoate
+
+--------- Spermidine (M_spmd_e) ----------
+from :
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+to :
+* Spermidine transport via ABC system (R_SPMDabc)
+	
+	Spermidine + ATPH2O -> ADPH+PhosphateSpermidine
+
+--------- Maltotriose (M_malttr_e) ----------
+from :
+* Pullulane hydrolysis by alpha-1,6 pullulanase and ? (R_PULLe)
+	
+	H2OPullulan (n=1200 repeat units, alpha-1,4 and alph-1,6 bounds) -> Maltotriose
+
+to :
+* Maltotriose transport via ABC system (R_MALTTRabc)
+	
+	Maltotriose + ATPH2O -> ADPH+MaltotriosePhosphate
+
+--------- Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc) (M_glucan4_e) ----------
+from :
+* Glucan hydrolysis by beta-1,4- and beta-1,3 glucosidase (R_GLSe)
+	
+	H2OBeta-1,3/1,4-glucan (Barley, n=1500, Glc beta1-&gt;3,4 Glc) -> Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc)
+
+to :
+* Glucan transport via ATP transporter (R_GLUCANabc)
+	
+	Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc) + ATPH2O -> ADPH+PhosphateBeta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc)
+
+--------- Laminaribiose (M_lmn2_e) ----------
+from :
+* Laminarinase (extracellular) (R_LMNe)
+	
+	H2OLaminarin (n=30 repeat units, beta -1,3 glc) -> Laminaribiose
+
+to :
+* Laminoribiose transport via ABC-transporter (R_LMN2abc)
+	
+	Laminaribiose + ATPH2O -> ADPH+PhosphateLaminaribiose
+
+--------- H+ (M_h_e) ----------
+from :
+* Menauinol oxidase  72 protons  (R_CYTB_B3)
+	
+	H+O2Menaquinol 7 C46H66O2 -> H+ + H2OMenaquinone 7 C46H64O2
+* Cytochrome oxidase bd (ubiquinol-8: 2 protons) (R_CYTBD)
+	
+	H+O2Ubiquinol-8 -> H+ + H2OUbiquinone-8
+* Ferredoxin:NAD oxidoreductase ( 2 protons traslocation) (R_RNF)
+	
+	H+Nicotinamide adenine dinucleotideFerredoxin (reduced form 4:2) -> H+ + Nicotinamide adenine dinucleotide - reducedFerredoxin (oxidized form 4:2)
+
+to :
+* Proton transport via diffusion (extracellular to periplasm) (R_Htex)
+	
+	H+ -> H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- L-Arabinose (M_arab__L_e) ----------
+from :
+* Alpha N arabinofuranosidase (R_LAAF)
+	
+	H2OAlpha L Arabinan C15H24O12 -> L-Arabinose
+
+to :
+* L-arabinose transport via diffusion (extracellular to periplasm) (R_ARBtex)
+	
+	L-Arabinose -> L-Arabinose
+
+--------- Magnesium (M_mg2_e) ----------
+from :
+* MGt5 (R_MGt5)
+	
+	Magnesium -> Magnesium
+
+to :
+* Magnesium transport via ABC system (R_MG2abc)
+	
+	Magnesium + ATPH2O -> ADPH+MagnesiumPhosphate
+* Magnesium (Mg+2) transport via diffusion (extracellular to periplasm) (R_MG2tex)
+	
+	Magnesium -> Magnesium

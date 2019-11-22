@@ -1,0 +1,158 @@
+
+--------- Fe2+ (M_fe2_e) ----------
+from :
+* Quinon:iron(III) oxidoreductase (R_FERIRDe)
+	
+	Fe3+ + Ubiquinol -> Fe2+H+ + Ubiquinone
+
+to :
+* Uptake of food iron by DMT1 transporter (R_FE2DMT1)
+	
+	Fe2+H+ -> Fe2+H+
+
+--------- H+ (M_h_e) ----------
+from :
+* Quinon:iron(III) oxidoreductase (R_FERIRDe)
+	
+	Fe3+ + Ubiquinol -> Fe2+H+ + Ubiquinone
+
+to :
+* Uptake of food iron by DMT1 transporter (R_FE2DMT1)
+	
+	Fe2+H+ -> Fe2+H+
+
+--------- H+ (M_h_e) ----------
+from :
+* BC10 new (R_BC10_new)
+	
+	H+Ferricytochrome c-553Menaquinol 6 -> H+ + Menaquinone 6Ferrocytochrome c-553
+* Formate dehydrogenase (quinone-8: 2 protons) (R_FDH2)
+	
+	FormateH+Ubiquinone-8 -> H+ + CO2Ubiquinol-8
+* HYDA1 (R_HYDA1)
+	
+	H2 + H+Menaquinone 6 -> H+ + Menaquinol 6
+* NADH dehydrogenase (R_NADHDH)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone -> H+ + Nicotinamide adenine dinucleotideUbiquinol
+
+to :
+* L-carnitine outward transport (H+ antiport) (R_CRNtHa)
+	
+	H+ + L-Carnitine -> L-Carnitine + H+
+* Potassium transport out via proton antiport (R_Kt3r)
+	
+	H+ + Potassium -> Potassium + H+
+* Transport of Ornithine, Extracellular Space (R_ORN_Dte)
+	
+	H+ + D-Ornithine -> D-Ornithine + H+
+* Transport of Homocarnosine (R_HMCARNt)
+	
+	H+ + CalciumHomocarnosine -> CalciumHomocarnosine + H+
+* Proton diffusion (R_Ht)
+	
+	H+ -> H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Ammonia transport via proton antiport (R_NH4t3r)
+	
+	H+ + Ammonium -> Ammonium + H+
+
+--------- Phosphate (M_pi_e) ----------
+from :
+* Glucose 1 phosphate transport via phosphate antiport (R_G1Pt6_2)
+	
+	D-Glucose 1-phosphate + Phosphate -> Phosphate + D-Glucose 1-phosphate
+
+to :
+* Transport of Methylmalonate, Antiport with Phsophate (R_HC00900t4)
+	
+	Phosphate + Methylmalonate -> Methylmalonate + Phosphate
+
+--------- 2-Oxoglutarate (M_akg_e) ----------
+from :
+* Alpha ketoglutaratemalate transporter (R_AKGMAL)
+	
+	L-Malate + 2-Oxoglutarate -> 2-Oxoglutarate + L-Malate
+
+to :
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2101)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2104)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2106)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2108)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+* Transport of 2-Oxoadipate by Alpha-Ketoglutarate Antiport (R_2OXOADPt)
+	
+	2-Oxoglutarate + 2 Oxoadipate C6H6O5 -> 2 Oxoadipate C6H6O5 + 2-Oxoglutarate
+* Transport of Homovanillate by Oat3 (R_HOMOVALte)
+	
+	2-Oxoglutarate + Homovanillate -> Homovanillate + 2-Oxoglutarate
+* Transport of 3-Hydroxy-Glutarate, Extracellular, Antiport (R_3OHGLUTACOAT3t)
+	
+	2-Oxoglutarate + 3-Hydroxy-Glutarate -> 3-Hydroxy-Glutarate + 2-Oxoglutarate
+* Transport of 2-Hydroxy-Glutarate, Extracellular, Antiport (R_2HYDOGOAT3t)
+	
+	2-Oxoglutarate + 2-Hydroxy-Glutarate -> 2-Hydroxy-Glutarate + 2-Oxoglutarate
+* Transport of Glutarate, Extracellular, Antiport (R_GLUTAROAT3t)
+	
+	2-Oxoglutarate + Glutarate -> Glutarate + 2-Oxoglutarate
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2102)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2103)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2105)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2107)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2109)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+
+--------- Protoheme (M_pheme_e) ----------
+from :
+* Protoheme transport irreversible out via diffusion (periplasm to extracellular) (R_PHEMEtiex)
+	
+	Protoheme -> Protoheme
+
+to :
+* Heme transport (R_PHEMEt)
+	
+	Protoheme -> Protoheme
+
+--------- Sodium (M_na1_e) ----------
+from :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 1.5) (R_NAt3_15)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+
+to :
+* Calcium / sodium antiporter (1:3), reversible (R_CAt7r)
+	
+	Sodium + Calcium -> Calcium + Sodium
+* Transport of 3-Iodo-L-Tyrosine (R_3ITYR_Lte)
+	
+	Sodium + 3-Iodo-L-tyrosine -> 3-Iodo-L-tyrosine + Sodium
+* Transport of 3, 5-Diiodo-L-Tyrosine (R_35DIODTYRte)
+	
+	Sodium + 3,5-Diiodo-L-tyrosine -> 3,5-Diiodo-L-tyrosine + Sodium
+* Sodium transport (uniport) (R_NAt)
+	
+	Sodium -> Sodium

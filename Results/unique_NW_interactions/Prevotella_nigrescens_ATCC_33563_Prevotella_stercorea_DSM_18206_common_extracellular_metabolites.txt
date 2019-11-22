@@ -1,0 +1,43 @@
+Adenosine
+Amylose (n=300 repeat units, alpha-1,4-glc)
+Cadmium
+Calcium
+Cu2+
+Cys-Gly
+Cytidine
+D-Glucose
+Deoxyadenosine
+Deoxycytidine
+Deoxyguanosine
+Deoxyinosine
+Deoxyuridine
+Fe2+
+Fumarate
+Galactitol
+Glycogen (n=1500 repeat units) (glc alpha 1,4/6 glc)
+Guanine
+Guanosine
+H+
+H2O
+Inosine
+KDO(2)-lipid IV(A)
+L-Malate
+Magnesium
+Maltose
+Maltotriose
+Meso-2,6-Diaminoheptanedioate
+Nickel
+Phosphate
+Potassium
+Pullulan (n=1200 repeat units, alpha-1,4 and alph-1,6 bounds)
+Sodium
+Spermidine
+Starch n=1200 repeat units (300 repeat units amylose, 900 repeat units amylopectin, corresponds to potatoe starch)
+Sucrose
+Sulfate
+Thymidine
+Undecaprenyl diphosphate
+Undecaprenyl diphosphate galactose-rhamnose-mannose-abequose-acetyl
+Undecaprenyl phosphate
+Uridine
+Xanthine

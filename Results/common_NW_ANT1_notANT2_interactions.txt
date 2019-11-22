@@ -1,0 +1,2 @@
+Species 1	Species 2	NW correlation score	ANT1 correlation score
+Blautia producta	Eubacterium dolichum	0.61	0.36

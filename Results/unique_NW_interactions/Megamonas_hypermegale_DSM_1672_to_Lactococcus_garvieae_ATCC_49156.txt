@@ -1,0 +1,104 @@
+
+--------- Glycerol (M_glyc_e) ----------
+from :
+* Glycerol transport via channel (R_GLYCt)
+	
+	Glycerol -> Glycerol
+
+to :
+* Glycerol transport via uniport (facilitated diffusion) (R_GLYCt1)
+	
+	Glycerol -> Glycerol
+
+--------- Spermidine (M_spmd_e) ----------
+from :
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+to :
+* Spermidine transport via ABC system (R_SPMDabc)
+	
+	Spermidine + ATPH2O -> ADPH+PhosphateSpermidine
+
+--------- L-Lysine (M_lys__L_e) ----------
+from :
+* LYSt3r (R_LYSt3r)
+	
+	H+ + L-Lysine -> L-Lysine + H+
+
+to :
+* L-lysine transport via ABC system (R_LYSabc)
+	
+	L-Lysine + ATPH2O -> ADPH+L-LysinePhosphate
+* L-lysine transport via diffusion (extracellular to periplasm) (R_LYStex)
+	
+	L-Lysine -> L-Lysine
+
+--------- Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala (M_uaagmda_e) ----------
+from :
+* PBP substrate translocator (R_UAAGMDt)
+	
+	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala -> Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala
+
+to :
+* Murein polymerizing transglycosylase (R_MPTGex)
+	
+	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala -> H+Two linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)Undecaprenyl diphosphate
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Cuabc (R_Cuabc)
+	
+	Cu2+ + ATPH2O -> ADPCu2+H+Phosphate
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- H+ (M_h_e) ----------
+from :
+* Chloride transport via proton antiport (2:1) (periplasm) (R_CLt3r_2)
+	
+	Chloride + H+ -> H+ + Chloride
+* Menaquinol oxidase  71 protons  (R_CYTB_B2)
+	
+	H+O2Menaquinol 7 C46H66O2 -> H+ + H2OMenaquinone 7 C46H64O2
+* Hydrogenase (ubiquinone-8: 2 protons) (R_HYD1)
+	
+	H+H2Ubiquinone-8 -> H+ + Ubiquinol-8
+* Hydrogenase (menaquinone8: 2 protons) (R_HYD2)
+	
+	H+H2Menaquinone 8 -> H+ + Menaquinol 8
+* Hydrogenase (Demethylmenaquinone-8: 2 protons) (R_HYD3)
+	
+	2-Demethylmenaquinone 8H+H2 -> H+ + 2-Demethylmenaquinol 8
+* NADH dehydrogenase (R_NADHDH)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone -> H+ + Nicotinamide adenine dinucleotideUbiquinol
+
+to :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 1.5) (R_NAt3_15)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+

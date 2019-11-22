@@ -1,0 +1,115 @@
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+* Cadminum transport out via antiport (R_CD2t4)
+	
+	H+Potassium + Cadmium -> Cadmium + H+Potassium
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- Spermidine (M_spmd_e) ----------
+from :
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+to :
+* Spermidine transport via ABC system (R_SPMDabc)
+	
+	Spermidine + ATPH2O -> ADPH+PhosphateSpermidine
+
+--------- Zinc (M_zn2_e) ----------
+from :
+* Zinc transport out via antiport (R_ZN2t4)
+	
+	H+Potassium + Zinc -> Zinc + H+Potassium
+
+to :
+* Zinc transport via ABC system (R_ZNabc)
+	
+	Zinc + ATPH2O -> ADPH+PhosphateZinc
+
+--------- Glycerol (M_glyc_e) ----------
+from :
+* Glycerol transport via channel (R_GLYCt)
+	
+	Glycerol -> Glycerol
+
+to :
+* Glycerol transport via uniport (facilitated diffusion) (R_GLYCt1)
+	
+	Glycerol -> Glycerol
+
+--------- Nitrite (M_no2_e) ----------
+from :
+* Nitrite transport out via proton antiport (R_NO2t3)
+	
+	H+ + Nitrite -> Nitrite + H+
+* Nitrate transport in via nitrite antiport (R_NO3t7)
+	
+	Nitrate + Nitrite -> Nitrite + Nitrate
+
+to :
+* Nitrite transport via diffusion (extracellular to periplasm) (R_NO2tex)
+	
+	Nitrite -> Nitrite
+
+--------- Gamma-butyrobetaine (M_gbbtn_e) ----------
+from :
+* Carnitine/butyrobetaine antiporter (R_CRNt7)
+	
+	L-Carnitine + Gamma-butyrobetaine -> Gamma-butyrobetaine + L-Carnitine
+
+to :
+* Gamma butyrobetaine transport in via ABC system (R_GBBTNabc)
+	
+	Gamma-butyrobetaine + ATPH2O -> ADPGamma-butyrobetaineH+Phosphate
+
+--------- H+ (M_h_e) ----------
+from :
+* Menaquinol oxidase  71 protons  (R_CYTB_B2)
+	
+	H+O2Menaquinol 7 C46H66O2 -> H+ + H2OMenaquinone 7 C46H64O2
+* Formate Dehydrogenase (menaquinone-8: 2 protons) (R_FDH3)
+	
+	FormateH+Menaquinone 8 -> H+ + CO2Menaquinol 8
+* Nitrate reductase (Ubiquinol-8) (R_NO3R1)
+	
+	H+NitrateUbiquinol-8 -> H+ + H2ONitriteUbiquinone-8
+* Nitrate reductase (Menaquinol-8) (R_NO3R2)
+	
+	H+Menaquinol 8Nitrate -> H+ + H2OMenaquinone 8Nitrite
+
+to :
+* Diacetyl transport out via proton antiport (R_DACTt3)
+	
+	H+ + Diacetyl -> Diacetyl + H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 1.5) (R_NAt3_15)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate

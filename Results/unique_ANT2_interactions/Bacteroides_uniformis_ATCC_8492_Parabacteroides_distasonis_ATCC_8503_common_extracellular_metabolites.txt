@@ -1,0 +1,57 @@
+4-Amino-4-deoxy-L-arabinose modified core oligosaccharide lipid A (G. metallireducens, variant 2)
+Adenosine
+Alpha L Arabinan C15H24O12
+Amylose (n=300 repeat units, alpha-1,4-glc)
+Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc)
+Cadmium
+Calcium
+Choline sulfate
+Citrate
+Cu2+
+Cys-Gly
+Cytidine
+D-Galactose
+D-Glucose
+D-Sorbitol
+D-Xylose
+Deoxyadenosine
+Deoxycytidine
+Deoxyribose C5H10O4
+Deoxyuridine
+Enterochelin
+Fe-enterobactin
+Fe2+
+Fumarate
+Galactitol
+Glycogen (n=1500 repeat units) (glc alpha 1,4/6 glc)
+H+
+H2O
+KDO(2)-lipid IV(A)
+L-Arabinose
+L-Arginine
+L-Aspartate
+L-Lactate
+L-Malate
+L-Rhamnose
+Laminaribiose
+Laminarin (n=30 repeat units, beta -1,3 glc)
+Magnesium
+Maltose
+Mannotetraose
+Mn2+
+Nickel
+Novobiocin
+Phosphate
+Potassium
+Raffinose C18H32O16
+Rifampin
+Sodium
+Spermidine
+Succinate
+Sulfate
+Thymidine
+Uridine
+Xylan (4 backbone units, 1 glcur side chain)
+Xylobiose
+Xylotriose
+Zinc

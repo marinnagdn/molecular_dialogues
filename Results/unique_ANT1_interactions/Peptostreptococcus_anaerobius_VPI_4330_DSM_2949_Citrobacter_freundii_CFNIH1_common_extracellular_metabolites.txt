@@ -1,0 +1,45 @@
+1,5-Diaminopentane
+Adenosine
+Arbutin
+Cadmium
+Citrate
+Co2+
+Cold adapted KDO(2)-lipid (A)
+Cu2+
+Cytidine
+D-Fructose
+D-Glucose
+D-Mannose
+D-Ribose
+Deoxyadenosine
+Deoxycytidine
+Deoxyuridine
+Fe2+
+Fe3+
+Guanine
+H+
+H2O
+L-Alanine
+L-Arginine
+L-Glutamate
+L-Histidine
+L-Lactate
+L-Lysine
+L-Malate
+L-Methionine
+L-Proline
+L-Serine
+L-Threonine
+Mn2+
+N-Acetylneuraminate
+Phosphate
+Potassium
+Raffinose C18H32O16
+Sodium
+Sucrose
+Taurine
+Tetradecenoate (n-C14:1)
+Thymidine
+Uridine
+Xanthine
+Zinc

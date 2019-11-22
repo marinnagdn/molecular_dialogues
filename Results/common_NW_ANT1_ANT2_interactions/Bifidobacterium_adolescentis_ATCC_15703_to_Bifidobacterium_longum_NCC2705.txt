@@ -1,0 +1,83 @@
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate
+* Calcium (Ca+2) transport via diffusion (extracellular to periplasm) (R_CA2tex)
+	
+	Calcium -> Calcium
+
+--------- L-Arabinose (M_arab__L_e) ----------
+from :
+* Alpha N arabinofuranosidase (R_LAAF)
+	
+	H2OAlpha L Arabinan C15H24O12 -> L-Arabinose
+
+to :
+* ARBabc (R_ARBabc)
+	
+	L-Arabinose + ATPH2O -> ADPL-ArabinoseH+Phosphate
+
+--------- Co2+ (M_cobalt2_e) ----------
+from :
+* COBALTt5 (R_COBALTt5)
+	
+	Co2+ -> Co2+
+
+to :
+* Cobalt transport via ABC system (R_COabc)
+	
+	Co2+ + ATPH2O -> ADPCo2+H+Phosphate
+* Cobalt (Co+2) transport via diffusion (extracellular to periplasm) (R_COBALT2tex)
+	
+	Co2+ -> Co2+
+
+--------- D-Glucose (M_glc__D_e) ----------
+from :
+* Beta glucosidase  cellobiose  (R_BG_CELLB)
+	
+	H2OCellobiose -> D-Glucose
+
+to :
+* Glucose transport via diffusion (extracellular to periplasm) (R_GLCtex)
+	
+	D-Glucose -> D-Glucose
+
+--------- Maltotriose (M_malttr_e) ----------
+from :
+* Pullulane hydrolysis by alpha-1,6 pullulanase and ? (R_PULLe)
+	
+	H2OPullulan (n=1200 repeat units, alpha-1,4 and alph-1,6 bounds) -> Maltotriose
+
+to :
+* Maltotriose transport via ABC system (R_MALTTRabc)
+	
+	Maltotriose + ATPH2O -> ADPH+MaltotriosePhosphate
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Cuabc (R_Cuabc)
+	
+	Cu2+ + ATPH2O -> ADPCu2+H+Phosphate
+
+--------- Zinc (M_zn2_e) ----------
+from :
+* Zinc transport out via antiport (R_ZN2t4)
+	
+	H+Potassium + Zinc -> Zinc + H+Potassium
+
+to :
+* Zinc transport via ABC system (R_ZNabc)
+	
+	Zinc + ATPH2O -> ADPH+PhosphateZinc

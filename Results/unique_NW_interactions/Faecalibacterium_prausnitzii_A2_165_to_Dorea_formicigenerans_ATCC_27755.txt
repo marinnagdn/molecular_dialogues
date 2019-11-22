@@ -1,0 +1,86 @@
+
+--------- D-Ribose (M_rib__D_e) ----------
+from :
+* D ribose transport out via ABC system (R_RIBabc1)
+	
+	ATPH2OD-Ribose -> D-Ribose + ADPH+Phosphate
+
+to :
+* D-ribose transport via ABC system (R_RIBabc)
+	
+	D-Ribose + ATPH2O -> ADPH+PhosphateD-Ribose
+* Ribose transport via diffusion (extracellular to periplasm) (R_RIBtex)
+	
+	D-Ribose -> D-Ribose
+
+--------- Succinate (M_succ_e) ----------
+from :
+* SUCFUMt (R_SUCFUMt)
+	
+	Fumarate + Succinate -> Succinate + Fumarate
+
+to :
+* Succinate transport via ABC system (R_SUCCabc)
+	
+	Succinate + ATPH2O -> ADPH+PhosphateSuccinate
+
+--------- Magnesium (M_mg2_e) ----------
+from :
+* MGt5 (R_MGt5)
+	
+	Magnesium -> Magnesium
+
+to :
+* Magnesium transport via ABC system (R_MG2abc)
+	
+	Magnesium + ATPH2O -> ADPH+MagnesiumPhosphate
+* Magnesium (Mg+2) transport via diffusion (extracellular to periplasm) (R_MG2tex)
+	
+	Magnesium -> Magnesium
+
+--------- H+ (M_h_e) ----------
+from :
+* Chloride transport via proton antiport (2:1) (periplasm) (R_CLt3r_2)
+	
+	Chloride + H+ -> H+ + Chloride
+
+to :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+* Cadminum transport out via antiport (R_CD2t4)
+	
+	H+Potassium + Cadmium -> Cadmium + H+Potassium
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+
+--------- Co2+ (M_cobalt2_e) ----------
+from :
+* COBALTt5 (R_COBALTt5)
+	
+	Co2+ -> Co2+
+
+to :
+* Cobalt transport via ABC system (R_COabc)
+	
+	Co2+ + ATPH2O -> ADPCo2+H+Phosphate

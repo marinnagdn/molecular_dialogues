@@ -1,0 +1,162 @@
+
+--------- D-Ribose (M_rib__D_e) ----------
+from :
+* D ribose transport out via ABC system (R_RIBabc1)
+	
+	ATPH2OD-Ribose -> D-Ribose + ADPH+Phosphate
+
+to :
+* D-ribose transport via ABC system (R_RIBabc)
+	
+	D-Ribose + ATPH2O -> ADPH+PhosphateD-Ribose
+* Ribose transport via diffusion (extracellular to periplasm) (R_RIBtex)
+	
+	D-Ribose -> D-Ribose
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* CAt4 (R_CAt4)
+	
+	H+ + Calcium -> Calcium + H+
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate
+
+--------- Nitrite (M_no2_e) ----------
+from :
+* Nitrate transport in via nitrite antiport (R_NO3t7)
+	
+	Nitrate + Nitrite -> Nitrite + Nitrate
+
+to :
+* Nitrite transport via diffusion (extracellular to periplasm) (R_NO2tex)
+	
+	Nitrite -> Nitrite
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+
+--------- Spermidine (M_spmd_e) ----------
+from :
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+to :
+* Spermidine transport via ABC system (R_SPMDabc)
+	
+	Spermidine + ATPH2O -> ADPH+PhosphateSpermidine
+* Spermidine transport via diffusion (extracellular to periplasm) (R_SPMDtex)
+	
+	Spermidine -> Spermidine
+
+--------- Ornithine (M_orn_e) ----------
+from :
+* Putrescine/ornithine antiporter (R_PTRCORNt7)
+	
+	Putrescine + Ornithine -> Ornithine + Putrescine
+
+to :
+* Ornithine transport via diffusion (extracellular to periplasm) (R_ORNtex)
+	
+	Ornithine -> Ornithine
+
+--------- H+ (M_h_e) ----------
+from :
+* Hydrogenase (ubiquinone-8: 2 protons) (R_HYD1)
+	
+	H+H2Ubiquinone-8 -> H+ + Ubiquinol-8
+* Hydrogenase (menaquinone8: 2 protons) (R_HYD2)
+	
+	H+H2Menaquinone 8 -> H+ + Menaquinol 8
+* Hydrogenase (Demethylmenaquinone-8: 2 protons) (R_HYD3)
+	
+	2-Demethylmenaquinone 8H+H2 -> H+ + 2-Demethylmenaquinol 8
+* NADH dehydrogenase (R_NADHDH)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone -> H+ + Nicotinamide adenine dinucleotideUbiquinol
+* Nitrate reductase (R_NTR3B)
+	
+	H+NitrateMenaquinol 7 C46H66O2 -> H+ + H2ONitriteMenaquinone 7 C46H64O2
+
+to :
+* CAt4 (R_CAt4)
+	
+	H+ + Calcium -> Calcium + H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+* Nitrite transport out via proton antiport (R_NO2t3)
+	
+	H+ + Nitrite -> Nitrite + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- H+ (M_h_e) ----------
+from :
+* Succinate efflux via proton symport (R_SUCCt2b)
+	
+	H+Succinate -> H+Succinate
+
+to :
+* Succinate transport via proton symport (R_SUCCt2r)
+	
+	H+Succinate -> H+Succinate
+
+--------- Succinate (M_succ_e) ----------
+from :
+* Succinate efflux via proton symport (R_SUCCt2b)
+	
+	H+Succinate -> H+Succinate
+
+to :
+* Succinate transport via proton symport (R_SUCCt2r)
+	
+	H+Succinate -> H+Succinate
+
+--------- Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala (M_uaagmda_e) ----------
+from :
+* PBP substrate translocator (R_UAAGMDt)
+	
+	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala -> Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala
+
+to :
+* Murein polymerizing transglycosylase (R_MPTGex)
+	
+	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala -> H+Two linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)Undecaprenyl diphosphate
+
+--------- 4-Aminobutanoate (M_4abut_e) ----------
+from :
+* 4-aminobutyrate/glutamate antiport (R_GLUABUTt7)
+	
+	L-Glutamate + 4-Aminobutanoate -> 4-Aminobutanoate + L-Glutamate
+
+to :
+* 4-aminobutyrate transport via diffusion (extracellular to periplasm) (R_ABUTtex)
+	
+	4-Aminobutanoate -> 4-Aminobutanoate

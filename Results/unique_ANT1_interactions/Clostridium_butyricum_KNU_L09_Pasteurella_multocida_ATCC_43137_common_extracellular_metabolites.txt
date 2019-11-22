@@ -1,0 +1,50 @@
+Adenosine
+Cadmium
+Choline sulfate
+Cu2+
+Cytidine
+D-Fructose
+D-Galactose
+D-Glucose
+D-Glucose 6-phosphate
+D-Mannose
+D-Mannose 6-phosphate
+D-Ribose
+D-Sorbitol
+D-Xylose
+Deoxyadenosine
+Deoxycytidine
+Deoxyuridine
+Enterochelin
+Fe-enterobactin
+Fe2+
+Fe3+
+Glycerol 3-phosphate
+H+
+H2O
+L-Alanine
+L-Glutamate
+L-Lactate
+L-Malate
+L-Methionine
+L-Proline
+L-Serine
+L-Threonine
+Maltose
+N-Acetylneuraminate
+Nickel
+Phosphate
+Potassium
+Protoheme
+Putrescine
+Raffinose C18H32O16
+Sodium
+Spermidine
+Succinate
+Sucrose
+Sulfate
+Thymidine
+Trehalose
+Uracil
+Uridine
+Zinc

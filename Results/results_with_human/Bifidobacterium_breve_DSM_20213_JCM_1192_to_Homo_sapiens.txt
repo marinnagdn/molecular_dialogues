@@ -1,0 +1,56 @@
+
+--------- Fe2+ (M_fe2_e) ----------
+from :
+* Quinon:iron(III) oxidoreductase (R_FERIRDe)
+	
+	Fe3+ + Ubiquinol -> Fe2+H+ + Ubiquinone
+
+to :
+* Uptake of food iron by DMT1 transporter (R_FE2DMT1)
+	
+	Fe2+H+ -> Fe2+H+
+
+--------- H+ (M_h_e) ----------
+from :
+* Quinon:iron(III) oxidoreductase (R_FERIRDe)
+	
+	Fe3+ + Ubiquinol -> Fe2+H+ + Ubiquinone
+
+to :
+* Uptake of food iron by DMT1 transporter (R_FE2DMT1)
+	
+	Fe2+H+ -> Fe2+H+
+
+--------- Sodium (M_na1_e) ----------
+from :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+
+to :
+* Calcium / sodium antiporter (1:3), reversible (R_CAt7r)
+	
+	Sodium + Calcium -> Calcium + Sodium
+* Transport of 3-Iodo-L-Tyrosine (R_3ITYR_Lte)
+	
+	Sodium + 3-Iodo-L-tyrosine -> 3-Iodo-L-tyrosine + Sodium
+* Transport of 3, 5-Diiodo-L-Tyrosine (R_35DIODTYRte)
+	
+	Sodium + 3,5-Diiodo-L-tyrosine -> 3,5-Diiodo-L-tyrosine + Sodium
+* Sodium transport (uniport) (R_NAt)
+	
+	Sodium -> Sodium
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* Calcium (Ca+2) transport via diffusion (extracellular to periplasm) (R_CA2t)
+	
+	Calcium -> Calcium

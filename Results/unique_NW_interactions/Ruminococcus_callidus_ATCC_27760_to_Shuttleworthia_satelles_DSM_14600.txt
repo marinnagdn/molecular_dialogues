@@ -1,0 +1,69 @@
+
+--------- Succinate (M_succ_e) ----------
+from :
+* SUCFUMt (R_SUCFUMt)
+	
+	Fumarate + Succinate -> Succinate + Fumarate
+
+to :
+* Succinate transport via ABC system (R_SUCCabc)
+	
+	Succinate + ATPH2O -> ADPH+PhosphateSuccinate
+* Succinate transport via diffusion (extracellular to periplasm) (R_SUCCtex)
+	
+	Succinate -> Succinate
+
+--------- Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc) (M_glucan4_e) ----------
+from :
+* Glucan hydrolysis by beta-1,4- and beta-1,3 glucosidase (R_GLSe)
+	
+	H2OBeta-1,3/1,4-glucan (Barley, n=1500, Glc beta1-&gt;3,4 Glc) -> Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc)
+
+to :
+* Glucan transport via ATP transporter (R_GLUCANabc)
+	
+	Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc) + ATPH2O -> ADPH+PhosphateBeta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc)
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+
+--------- Beta-1,3/1,4-glucan (Barley, n=6, Glc beta1-&gt;3,4 Glc) (M_glucan6_e) ----------
+from :
+* Glucan hydrolysis by beta-1,4- and beta-1,3 glucosidase (R_GLS2e)
+	
+	H2OBeta-1,3/1,4-glucan (Barley, n=1500, Glc beta1-&gt;3,4 Glc) -> Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc)
+
+to :
+* Glucan transport via ATP transporter (R_GLUCAN2abc)
+	
+	Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc) + ATPH2O -> ADPH+PhosphateBeta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc)
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium

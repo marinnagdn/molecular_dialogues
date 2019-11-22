@@ -1,0 +1,201 @@
+
+--------- D-Gluconate (M_glcn_e) ----------
+from :
+* Glucose dehydrogenase (ubiquinone-8 as acceptor) (R_GLCDe)
+	
+	D-GlucoseH2O + Ubiquinone-8 -> D-GluconateH+ + Ubiquinol-8
+
+to :
+* D-gluconate transport via proton symport, reversible (R_GLCNt2r)
+	
+	D-GluconateH+ -> D-GluconateH+
+
+--------- H+ (M_h_e) ----------
+from :
+* Glucose dehydrogenase (ubiquinone-8 as acceptor) (R_GLCDe)
+	
+	D-GlucoseH2O + Ubiquinone-8 -> D-GluconateH+ + Ubiquinol-8
+
+to :
+* D-gluconate transport via proton symport, reversible (R_GLCNt2r)
+	
+	D-GluconateH+ -> D-GluconateH+
+
+--------- Nitrite (M_no2_e) ----------
+from :
+* Nitrate transport in via nitrite antiport (R_NO3t7)
+	
+	Nitrate + Nitrite -> Nitrite + Nitrate
+
+to :
+* Nitrite transport via diffusion (extracellular to periplasm) (R_NO2tex)
+	
+	Nitrite -> Nitrite
+
+--------- H+ (M_h_e) ----------
+from :
+* Succinate efflux via proton symport (R_SUCCt2b)
+	
+	H+Succinate -> H+Succinate
+
+to :
+* Succintate transport via proton symport (3 H) (R_SUCCt2_3)
+	
+	H+Succinate -> H+Succinate
+* Succinate transport via proton symport (R_SUCCt2r)
+	
+	H+Succinate -> H+Succinate
+
+--------- Succinate (M_succ_e) ----------
+from :
+* Succinate efflux via proton symport (R_SUCCt2b)
+	
+	H+Succinate -> H+Succinate
+
+to :
+* Succintate transport via proton symport (3 H) (R_SUCCt2_3)
+	
+	H+Succinate -> H+Succinate
+* Succinate transport via proton symport (R_SUCCt2r)
+	
+	H+Succinate -> H+Succinate
+
+--------- Phosphate (M_pi_e) ----------
+from :
+* Glucose-6-phosphate transport via phosphate antiport (R_G6Pt6_2)
+	
+	D-Glucose 6-phosphate + Phosphate -> Phosphate + D-Glucose 6-phosphate
+* Glycerol-3-phosphate : phosphate antiporter (R_GLYC3Pt6)
+	
+	Glycerol 3-phosphate + Phosphate -> Phosphate + Glycerol 3-phosphate
+* Mannose-6-phosphate transport via phosphate antiport (R_MAN6Pt6_2)
+	
+	D-Mannose 6-phosphate + Phosphate -> Phosphate + D-Mannose 6-phosphate
+
+to :
+* Phosphate transport via ABC system (R_PIabc)
+	
+	Phosphate + ATPH2O -> ADPH+Phosphate
+* Phosphate transport via diffusion (extracellular to periplasm) (R_PItex)
+	
+	Phosphate -> Phosphate
+
+--------- Glycerol (M_glyc_e) ----------
+from :
+* Glycerol transport via channel (R_GLYCt)
+	
+	Glycerol -> Glycerol
+
+to :
+* Glycerol transport via diffusion (extracellular to periplasm) (R_GLYCtex)
+	
+	Glycerol -> Glycerol
+
+--------- Sodium (M_na1_e) ----------
+from :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 1.5) (R_NAt3_15)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+
+to :
+* Sodium transport via diffusion (extracellular to periplasm) (R_NAtex)
+	
+	Sodium -> Sodium
+
+--------- Formate (M_for_e) ----------
+from :
+* Formate transport via diffusion (R_FORti)
+	
+	Formate -> Formate
+
+to :
+* Formate transport via diffusion (extracellular to periplasm) (R_FORtex)
+	
+	Formate -> Formate
+
+--------- Magnesium (M_mg2_e) ----------
+from :
+* MGt5 (R_MGt5)
+	
+	Magnesium -> Magnesium
+
+to :
+* Magnesium (Mg+2) transport via diffusion (extracellular to periplasm) (R_MG2tex)
+	
+	Magnesium -> Magnesium
+
+--------- H+ (M_h_e) ----------
+from :
+* Cytochrome oxidase bd (ubiquinol-8: 2 protons) (R_CYTBD)
+	
+	H+O2Ubiquinol-8 -> H+ + H2OUbiquinone-8
+* Cytochrome oxidase bo3 (ubiquinol-8: 2.5 protons) (R_CYTBO3)
+	
+	H+O2Ubiquinol-8 -> H+ + H2OUbiquinone-8
+* Formate dehydrogenase (quinone-8: 2 protons) (R_FDH2)
+	
+	FormateH+Ubiquinone-8 -> H+ + CO2Ubiquinol-8
+* Formate Dehydrogenase (menaquinone-8: 2 protons) (R_FDH3)
+	
+	FormateH+Menaquinone 8 -> H+ + CO2Menaquinol 8
+* Hydrogenase (ubiquinone-8: 2 protons) (R_HYD1)
+	
+	H+H2Ubiquinone-8 -> H+ + Ubiquinol-8
+* Hydrogenase (menaquinone8: 2 protons) (R_HYD2)
+	
+	H+H2Menaquinone 8 -> H+ + Menaquinol 8
+* Hydrogenase (Demethylmenaquinone-8: 2 protons) (R_HYD3)
+	
+	2-Demethylmenaquinone 8H+H2 -> H+ + 2-Demethylmenaquinol 8
+* NADH dehydrogenase (ubiquinone-8 &amp; 3 protons) (R_NADH16)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone-8 -> H+ + Nicotinamide adenine dinucleotideUbiquinol-8
+* NADH dehydrogenase (ubiquinone-8 &amp; 3.5 protons) (R_NADH6)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone-8 -> H+ + Nicotinamide adenine dinucleotideUbiquinol-8
+* NADH dehydrogenase (menaquinone-8 &amp; 2 protons) (R_NADH7)
+	
+	H+Menaquinone 8Nicotinamide adenine dinucleotide - reduced -> H+ + Menaquinol 8Nicotinamide adenine dinucleotide
+* NADH dehydrogenase (demethylmenaquinone-8 &amp; 2.8 protons) (R_NADH8)
+	
+	2-Demethylmenaquinone 8H+Nicotinamide adenine dinucleotide - reduced -> H+ + 2-Demethylmenaquinol 8Nicotinamide adenine dinucleotide
+* Nitrate reductase (Ubiquinol-8) (R_NO3R1)
+	
+	H+NitrateUbiquinol-8 -> H+ + H2ONitriteUbiquinone-8
+* Nitrate reductase (Menaquinol-8) (R_NO3R2)
+	
+	H+Menaquinol 8Nitrate -> H+ + H2OMenaquinone 8Nitrite
+
+to :
+* Proton transport via diffusion (extracellular to periplasm) (R_Htex)
+	
+	H+ -> H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 1.5) (R_NAt3_15)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* Cadminum transport out via antiport (R_CD2t4)
+	
+	H+Potassium + Cadmium -> Cadmium + H+Potassium
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium

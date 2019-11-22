@@ -1,0 +1,82 @@
+
+--------- Reduced glutathione (M_gthrd_e) ----------
+from :
+* Glutathione peroxidase (R_GTHPe_1)
+	
+	Oxidized glutathioneH2O -> Reduced glutathioneHydrogen peroxide
+
+to :
+* Glutathione peroxidase (R_GTHPe)
+	
+	Reduced glutathioneHydrogen peroxide -> Oxidized glutathioneH2O
+
+--------- Hydrogen peroxide (M_h2o2_e) ----------
+from :
+* Glutathione peroxidase (R_GTHPe_1)
+	
+	Oxidized glutathioneH2O -> Reduced glutathioneHydrogen peroxide
+
+to :
+* Glutathione peroxidase (R_GTHPe)
+	
+	Reduced glutathioneHydrogen peroxide -> Oxidized glutathioneH2O
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* Calcium (Ca+2) transport via diffusion (extracellular to periplasm) (R_CA2t)
+	
+	Calcium -> Calcium
+
+--------- H+ (M_h_e) ----------
+from :
+* Cytochrome oxidase bd (ubiquinol-8: 2 protons) (R_CYTBD)
+	
+	H+O2Ubiquinol-8 -> H+ + H2OUbiquinone-8
+
+to :
+* L-carnitine outward transport (H+ antiport) (R_CRNtHa)
+	
+	H+ + L-Carnitine -> L-Carnitine + H+
+* Potassium transport out via proton antiport (R_Kt3r)
+	
+	H+ + Potassium -> Potassium + H+
+* Transport of Ornithine, Extracellular Space (R_ORN_Dte)
+	
+	H+ + D-Ornithine -> D-Ornithine + H+
+* Transport of Homocarnosine (R_HMCARNt)
+	
+	H+ + CalciumHomocarnosine -> CalciumHomocarnosine + H+
+* Proton diffusion (R_Ht)
+	
+	H+ -> H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Ammonia transport via proton antiport (R_NH4t3r)
+	
+	H+ + Ammonium -> Ammonium + H+
+
+--------- Sodium (M_na1_e) ----------
+from :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+
+to :
+* Calcium / sodium antiporter (1:3), reversible (R_CAt7r)
+	
+	Sodium + Calcium -> Calcium + Sodium
+* Transport of 3-Iodo-L-Tyrosine (R_3ITYR_Lte)
+	
+	Sodium + 3-Iodo-L-tyrosine -> 3-Iodo-L-tyrosine + Sodium
+* Transport of 3, 5-Diiodo-L-Tyrosine (R_35DIODTYRte)
+	
+	Sodium + 3,5-Diiodo-L-tyrosine -> 3,5-Diiodo-L-tyrosine + Sodium
+* Sodium transport (uniport) (R_NAt)
+	
+	Sodium -> Sodium

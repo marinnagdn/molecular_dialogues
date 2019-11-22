@@ -1,0 +1,31 @@
+Calcium
+Cys Gly C5H10N2O3S
+D-Alanine
+D-Alanyl-D-alanine
+D-Glucose
+D-Sorbitol
+Deoxycytidine
+Fe2+ mitochondria
+H+
+H2O H2O
+Hexadecanoate (n-C16:0)
+Iron (Fe3+)
+L-Alanine
+L-Arginine
+L-Glutamate
+L-Isoleucine
+L-Lactate
+L-Leucine
+L-Threonine
+L-Valine
+Maltose C12H22O11
+Maltotriose C18H32O16
+Phosphate
+Potassium
+Riboflavin C17H20N4O6
+Sodium
+Sucrose C12H22O11
+Sulfate
+Thiamin
+Trehalose
+Zinc

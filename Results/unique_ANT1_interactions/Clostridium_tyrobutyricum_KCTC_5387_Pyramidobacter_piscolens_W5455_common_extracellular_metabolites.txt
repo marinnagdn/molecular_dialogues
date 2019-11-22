@@ -1,0 +1,36 @@
+1,5-Diaminopentane
+Cadmium
+Calcium
+Citrate
+Co2+
+Cu2+
+Cys-Gly
+Cytosine
+D-Alanine
+D-Alanyl-D-alanine
+D-Fructose
+Deoxycytidine
+Fe2+
+Fe3+
+Galactitol
+Guanine
+H+
+H2O
+Hypoxanthine
+L-Arginine
+L-Glutamate
+L-Lysine
+L-Methionine
+L-Proline
+Methanesulfonate
+Nitrate
+Phosphate
+Potassium
+Riboflavin
+Sodium
+Spermidine
+Sulfate
+Undecaprenyl diphosphate
+Undecaprenyl diphosphate galactose-rhamnose-mannose-abequose-acetyl
+Undecaprenyl phosphate
+Zinc

@@ -1,0 +1,48 @@
+Adenosine
+Calcium
+Choline C5H14NO
+Cytidine
+D-Alanine
+D-Alanyl-D-alanine
+D-Fructose
+D-Galactose
+D-Glucose
+D-Glucose 1-phosphate
+D-Ribose
+D-Sorbitol
+Deoxyadenosine
+Deoxycytidine
+Deoxyuridine
+Fe2+ mitochondria
+Glycerol
+Glycine
+Glycine betaine
+H+
+H2O H2O
+Iron (Fe3+)
+L-Alanine
+L-Arginine
+L-Aspartate
+L-Glutamate
+L-Histidine
+L-Lactate
+L-Lysine
+L-Proline
+Lactose C12H22O11
+Maltose C12H22O11
+Maltotriose C18H32O16
+N-Acetyl-D-glucosamine
+Phosphate
+Potassium
+Protoheme C34H30FeN4O4
+Putrescine
+Riboflavin C17H20N4O6
+Sodium
+Spermidine
+Sucrose C12H22O11
+Sulfate
+Taurine C2H7NO3S
+Thymidine C10H14N2O5
+Trehalose
+Uridine
+Zinc

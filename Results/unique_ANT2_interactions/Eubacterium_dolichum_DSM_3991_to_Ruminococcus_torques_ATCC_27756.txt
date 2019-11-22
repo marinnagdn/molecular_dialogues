@@ -1,0 +1,72 @@
+
+--------- D-Glucose (M_glc__D_e) ----------
+from :
+* Beta glucosidase  cellobiose  (R_BG_CELLB)
+	
+	H2OCellobiose -> D-Glucose
+
+to :
+* D-glucose transport via PEP:Pyr PTS (R_GLCpts)
+	
+	D-Glucose + Phosphoenolpyruvate -> D-Glucose 6-phosphatePyruvate
+
+--------- H+ (M_h_e) ----------
+from :
+* Chloride transport via proton antiport (2:1) (periplasm) (R_CLt3r_2)
+	
+	Chloride + H+ -> H+ + Chloride
+* Ferredoxin:NAD oxidoreductase ( 2 protons traslocation) (R_RNF)
+	
+	H+Nicotinamide adenine dinucleotideFerredoxin (reduced form 4:2) -> H+ + Nicotinamide adenine dinucleotide - reducedFerredoxin (oxidized form 4:2)
+
+to :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+* Cuabc (R_Cuabc)
+	
+	Cu2+ + ATPH2O -> ADPCu2+H+Phosphate
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- Maltotriose (M_malttr_e) ----------
+from :
+* Pullulane hydrolysis by alpha-1,6 pullulanase and ? (R_PULLe)
+	
+	H2OPullulan (n=1200 repeat units, alpha-1,4 and alph-1,6 bounds) -> Maltotriose
+
+to :
+* Maltotriose transport via ABC system (R_MALTTRabc)
+	
+	Maltotriose + ATPH2O -> ADPH+MaltotriosePhosphate

@@ -1,0 +1,195 @@
+
+--------- H+ (M_h_e) ----------
+from :
+* Cytochrome oxidase bd (ubiquinol-8: 2 protons) (R_CYTBD)
+	
+	H+O2Ubiquinol-8 -> H+ + H2OUbiquinone-8
+* Hydrogenase (ubiquinone-8: 2 protons) (R_HYD1)
+	
+	H+H2Ubiquinone-8 -> H+ + Ubiquinol-8
+* Hydrogenase (menaquinone8: 2 protons) (R_HYD2)
+	
+	H+H2Menaquinone 8 -> H+ + Menaquinol 8
+* Hydrogenase (Demethylmenaquinone-8: 2 protons) (R_HYD3)
+	
+	2-Demethylmenaquinone 8H+H2 -> H+ + 2-Demethylmenaquinol 8
+* NADH dehydrogenase (R_NADHDH)
+	
+	H+Nicotinamide adenine dinucleotide - reducedUbiquinone -> H+ + Nicotinamide adenine dinucleotideUbiquinol
+* Ferredoxin:NAD oxidoreductase ( 2 protons traslocation) (R_RNF)
+	
+	H+Nicotinamide adenine dinucleotideFerredoxin (reduced form 4:2) -> H+ + Nicotinamide adenine dinucleotide - reducedFerredoxin (oxidized form 4:2)
+
+to :
+* Proton transport via diffusion (extracellular to periplasm) (R_Htex)
+	
+	H+ -> H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Novobiocin (M_novbcn_e) ----------
+from :
+* Novobiocin transport via TolC system (R_NOVBCNtpp)
+	
+	H+Novobiocin -> Novobiocin + H+
+
+to :
+* Novobiocin transport via diffusion (extracellular to periplasm) (R_NOVBCNtex)
+	
+	Novobiocin -> Novobiocin
+
+--------- Sodium (M_na1_e) ----------
+from :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+
+to :
+* Sodium transport via diffusion (extracellular to periplasm) (R_NAtex)
+	
+	Sodium -> Sodium
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- Spermidine (M_spmd_e) ----------
+from :
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+to :
+* Spermidine transport via ABC system (R_SPMDabc)
+	
+	Spermidine + ATPH2O -> ADPH+PhosphateSpermidine
+
+--------- Laminaribiose (M_lmn2_e) ----------
+from :
+* Laminarinase (extracellular) (R_LMNe)
+	
+	H2OLaminarin (n=30 repeat units, beta -1,3 glc) -> Laminaribiose
+
+to :
+* Laminoribiose transport via ABC-transporter (R_LMN2abc)
+	
+	Laminaribiose + ATPH2O -> ADPH+PhosphateLaminaribiose
+
+--------- Succinate (M_succ_e) ----------
+from :
+* SUCFUMt (R_SUCFUMt)
+	
+	Fumarate + Succinate -> Succinate + Fumarate
+
+to :
+* Succinate transport via diffusion (extracellular to periplasm) (R_SUCCtex)
+	
+	Succinate -> Succinate
+
+--------- Co2+ (M_cobalt2_e) ----------
+from :
+* COBALTt5 (R_COBALTt5)
+	
+	Co2+ -> Co2+
+
+to :
+* Cobalt (Co+2) transport via diffusion (extracellular to periplasm) (R_COBALT2tex)
+	
+	Co2+ -> Co2+
+
+--------- 4-Aminobutanoate (M_4abut_e) ----------
+from :
+* 4-aminobutyrate/glutamate antiport (R_GLUABUTt7)
+	
+	L-Glutamate + 4-Aminobutanoate -> 4-Aminobutanoate + L-Glutamate
+
+to :
+* 4-aminobutyrate transport via diffusion (extracellular to periplasm) (R_ABUTtex)
+	
+	4-Aminobutanoate -> 4-Aminobutanoate
+
+--------- Glycerol (M_glyc_e) ----------
+from :
+* Glycerol transport via channel (R_GLYCt)
+	
+	Glycerol -> Glycerol
+
+to :
+* Glycerol transport via diffusion (extracellular to periplasm) (R_GLYCtex)
+	
+	Glycerol -> Glycerol
+
+--------- L-Arabinose (M_arab__L_e) ----------
+from :
+* Alpha-N-arabinofuranosidase (R_ABFA)
+	
+	H2OAlpha-L-Arabinan (3 subunits) -> L-Arabinose
+* Alpha N arabinofuranosidase (R_LAAF)
+	
+	H2OAlpha L Arabinan C15H24O12 -> L-Arabinose
+
+to :
+* L-arabinose transport via diffusion (extracellular to periplasm) (R_ARBtex)
+	
+	L-Arabinose -> L-Arabinose
+
+--------- Rifampin (M_rfamp_e) ----------
+from :
+* Rifampin transport via TolC system (R_RFAMPtpp)
+	
+	H+Rifampin -> Rifampin + H+
+
+to :
+* Rifampin transport via diffusion (extracellular to periplasm) (R_RFAMPtex)
+	
+	Rifampin -> Rifampin
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate
+* Calcium (Ca+2) transport via diffusion (extracellular to periplasm) (R_CA2tex)
+	
+	Calcium -> Calcium
+
+--------- Magnesium (M_mg2_e) ----------
+from :
+* MGt5 (R_MGt5)
+	
+	Magnesium -> Magnesium
+
+to :
+* Magnesium transport via ABC system (R_MG2abc)
+	
+	Magnesium + ATPH2O -> ADPH+MagnesiumPhosphate
+* Magnesium (Mg+2) transport via diffusion (extracellular to periplasm) (R_MG2tex)
+	
+	Magnesium -> Magnesium

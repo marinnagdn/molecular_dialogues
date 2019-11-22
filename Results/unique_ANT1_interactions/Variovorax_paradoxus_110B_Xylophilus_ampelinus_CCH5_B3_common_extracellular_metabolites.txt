@@ -1,0 +1,51 @@
+1,5-Diaminopentane
+Butanesulfonate C4H9O3S
+Cadmium
+Chromate
+Citrate
+Cu2+
+Cyanate
+D Galactarate C6H8O8
+D-Fructose
+D-Sorbitol
+D-Xylose
+Diacetyl
+Enterochelin
+Ethanesulfonate C2H5O3S
+Ethanolamine
+Fe2+
+Fe3+
+Fumarate
+Glycerol 3-phosphate
+H+
+H2O
+Isethionate C2H5O4S
+KDO(2)-lipid IV(A)
+L-Alanine
+L-Aspartate
+L-Glutamate
+L-Glutamine
+L-Isoleucine
+L-Leucine
+L-Lysine
+L-Malate
+L-Methionine
+L-Threonine
+L-Valine
+Maltoheptaose
+Mn2+
+Nickel
+Novobiocin
+Phosphate
+Potassium
+Rifampin
+Sodium
+Spermidine
+Succinate
+Sulfate
+Sulfoacetate C2H2O5S
+Taurine
+Thiosulfate
+Uracil
+Xanthine
+Zinc

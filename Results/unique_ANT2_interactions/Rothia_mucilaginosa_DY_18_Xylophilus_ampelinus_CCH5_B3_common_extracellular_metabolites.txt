@@ -1,0 +1,27 @@
+Butanesulfonate C4H9O3S
+Cu2+
+D-Fructose
+Enterochelin
+Ethanesulfonate C2H5O3S
+Fe2+
+Fe3+
+Glycerol 3-phosphate
+H+
+H2O
+Isethionate C2H5O4S
+L-Glutamate
+L-Glutamine
+L-Lysine
+L-Methionine
+Maltoheptaose
+Methanesulfonate
+Mn2+
+Phosphate
+Potassium
+Sodium
+Spermidine
+Sucrose
+Sulfate
+Sulfoacetate C2H2O5S
+Uracil
+Zinc

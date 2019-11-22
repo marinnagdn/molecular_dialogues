@@ -1,0 +1,75 @@
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate
+* Calcium (Ca+2) transport via diffusion (extracellular to periplasm) (R_CA2tex)
+	
+	Calcium -> Calcium
+
+--------- H+ (M_h_e) ----------
+from :
+* Succinate efflux via proton symport (R_SUCCt2b)
+	
+	H+Succinate -> H+Succinate
+
+to :
+* Succinate transport via proton symport (R_SUCCt2r)
+	
+	H+Succinate -> H+Succinate
+
+--------- Succinate (M_succ_e) ----------
+from :
+* Succinate efflux via proton symport (R_SUCCt2b)
+	
+	H+Succinate -> H+Succinate
+
+to :
+* Succinate transport via proton symport (R_SUCCt2r)
+	
+	H+Succinate -> H+Succinate
+
+--------- L-Arabinose (M_arab__L_e) ----------
+from :
+* Alpha-N-arabinofuranosidase (R_ABFA)
+	
+	H2OAlpha-L-Arabinan (3 subunits) -> L-Arabinose
+* Alpha N arabinofuranosidase (R_LAAF)
+	
+	H2OAlpha L Arabinan C15H24O12 -> L-Arabinose
+
+to :
+* ARBabc (R_ARBabc)
+	
+	L-Arabinose + ATPH2O -> ADPL-ArabinoseH+Phosphate
+* L-arabinose transport via diffusion (extracellular to periplasm) (R_ARBtex)
+	
+	L-Arabinose -> L-Arabinose
+
+--------- Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala (M_uaagmda_e) ----------
+from :
+* PBP substrate translocator (R_UAAGMDt)
+	
+	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala -> Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala
+
+to :
+* Murein polymerizing transglycosylase (R_MPTGex)
+	
+	Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala -> H+Two linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)Undecaprenyl diphosphate
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Cuabc (R_Cuabc)
+	
+	Cu2+ + ATPH2O -> ADPCu2+H+Phosphate

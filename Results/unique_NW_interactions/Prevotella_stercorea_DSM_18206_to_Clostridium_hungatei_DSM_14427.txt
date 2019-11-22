@@ -1,0 +1,106 @@
+
+--------- Cadmium (M_cd2_e) ----------
+from :
+* CD2abc1 (R_CD2abc1)
+	
+	ATPCadmiumH2O -> Cadmium + ADPH+Phosphate
+
+to :
+* Cadmium (Cd+2) transport via diffusion (extracellular to periplasm) (R_CD2tex)
+	
+	Cadmium -> Cadmium
+
+--------- H+ (M_h_e) ----------
+from :
+* Menauinol oxidase  72 protons  (R_CYTB_B3)
+	
+	H+O2Menaquinol 7 C46H66O2 -> H+ + H2OMenaquinone 7 C46H64O2
+* Cytochrome oxidase bd (ubiquinol-8: 2 protons) (R_CYTBD)
+	
+	H+O2Ubiquinol-8 -> H+ + H2OUbiquinone-8
+
+to :
+* Chromate transport out via proton antiport (R_CRO4t3)
+	
+	H+ + Chromate -> Chromate + H+
+* Proton transport via diffusion (extracellular to periplasm) (R_Htex)
+	
+	H+ -> H+
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Spermidine transport out via proton antiport (R_SPMDt3)
+	
+	H+ + Spermidine -> Spermidine + H+
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* CA2abc (R_CA2abc)
+	
+	Calcium + ATPH2O -> ADPCalciumH+Phosphate
+* Calcium (Ca+2) transport via diffusion (extracellular to periplasm) (R_CA2tex)
+	
+	Calcium -> Calcium
+
+--------- Cu2+ (M_cu2_e) ----------
+from :
+* Copper export via ATPase (R_Cut1)
+	
+	ATPCu2+H2O -> Cu2+ + ADPH+Phosphate
+
+to :
+* Copper (Cu+2) transport via diffusion (extracellular to periplasm) (R_CU2tex)
+	
+	Cu2+ -> Cu2+
+
+--------- Sodium (M_na1_e) ----------
+from :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Inorganic diphosphatase (sodium translocation) (R_PPANA)
+	
+	H2OSodiumDiphosphate -> Sodium + H+Phosphate
+
+to :
+* Sodium transport via diffusion (extracellular to periplasm) (R_NAtex)
+	
+	Sodium -> Sodium
+
+--------- Fumarate (M_fum_e) ----------
+from :
+* FUMt3 (R_FUMt3)
+	
+	H+ + Fumarate -> Fumarate + H+
+
+to :
+* SUCFUMt (R_SUCFUMt)
+	
+	Fumarate + Succinate -> Succinate + Fumarate
+
+--------- Xylan (4 backbone units, 1 glcur side chain) (M_xylan4_e) ----------
+from :
+* Xylanase (endo-acting) (extracellular) (R_XYLe)
+	
+	H2OXylan (8 backbone units, 2 glcur side chain) -> Xylan (4 backbone units, 1 glcur side chain)
+
+to :
+* Oligo-xylan ABC transport (R_XYLANabc)
+	
+	Xylan (4 backbone units, 1 glcur side chain) + ATPH2O -> ADPH+PhosphateXylan (4 backbone units, 1 glcur side chain)
+
+--------- Laminaribiose (M_lmn2_e) ----------
+from :
+* Laminarinase (extracellular) (R_LMNe)
+	
+	H2OLaminarin (n=30 repeat units, beta -1,3 glc) -> Laminaribiose
+
+to :
+* Laminoribiose transport via ABC-transporter (R_LMN2abc)
+	
+	Laminaribiose + ATPH2O -> ADPH+PhosphateLaminaribiose

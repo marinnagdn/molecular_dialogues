@@ -1,0 +1,68 @@
+Adenosine
+Alpha L Arabinan C15H24O12
+Amylose (n=300 repeat units, alpha-1,4-glc)
+Beta-1,3/1,4-glucan (Barley, n=4, Glc beta1-&gt;3,4 Glc)
+Cadmium
+Calcium
+Choline sulfate
+Citrate
+Cu2+
+Cys-Gly
+Cytidine
+D-Galactose
+D-Glucose
+D-Sorbitol
+D-Xylose
+Deoxyadenosine
+Deoxycytidine
+Deoxyguanosine
+Deoxyinosine
+Deoxyribose C5H10O4
+Deoxyuridine
+Enterochelin
+Fe-enterobactin
+Fe2+
+Fumarate
+Galactitol
+Galactomannan (n=600 repeat units mannose, alpha-1,4 man)
+Galactomannan(n=4 repeat units mannose, alpha-1,4 man)
+Galactomannan(n=6 repeat units mannose, alpha-1,4 man)
+Glycogen (n=1500 repeat units) (glc alpha 1,4/6 glc)
+Guanosine
+H+
+H2O
+Inosine
+KDO(2)-lipid IV(A)
+L-Arabinose
+L-Aspartate
+L-Lactate
+L-Malate
+L-Rhamnose
+Laminaribiose
+Laminarin (n=30 repeat units, beta -1,3 glc)
+Magnesium
+Maltose
+Maltotriose
+Mannotetraose
+Mn2+
+Nickel
+Novobiocin
+Phosphate
+Phosphoethanolamine KDO(2)-lipid (A)
+Potassium
+Pullulan (n=1200 repeat units, alpha-1,4 and alph-1,6 bounds)
+Raffinose C18H32O16
+Rifampin
+Sodium
+Spermidine
+Starch n=1200 repeat units (300 repeat units amylose, 900 repeat units amylopectin, corresponds to potatoe starch)
+Succinate
+Sulfate
+Thymidine
+Undecaprenyl diphosphate
+Undecaprenyl phosphate
+Uridine
+Xylan (4 backbone units, 1 glcur side chain)
+Xylobiose
+Xylotriose
+Zinc

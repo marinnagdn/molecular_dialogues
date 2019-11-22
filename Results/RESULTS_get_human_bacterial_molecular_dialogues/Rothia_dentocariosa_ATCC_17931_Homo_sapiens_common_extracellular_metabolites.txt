@@ -1,0 +1,32 @@
+Calcium
+Choline C5H14NO
+Cys Gly C5H10N2O3S
+D-Alanine
+D-Alanyl-D-alanine
+D-Fructose
+D-Glucose
+Dodecanoate (n-C12:0)
+Fe2+ mitochondria
+Glycerol
+Glycine betaine
+H+
+H2O H2O
+Iron (Fe3+)
+L-Arginine
+L-Glutamate
+L-Lysine
+L-Methionine
+L-Proline
+N-Acetyl-D-glucosamine
+Nicotinate
+Potassium
+Protoheme C34H30FeN4O4
+Putrescine
+Sodium
+Spermidine
+Sucrose C12H22O11
+Sulfate
+Taurine C2H7NO3S
+Tetradecenoate (n-C14:1)
+Thymidine C10H14N2O5
+Zinc

@@ -1,0 +1,33 @@
+Adenosine
+Calcium
+Citrate
+Cys Gly C5H10N2O3S
+Cytidine
+D-Galactose
+D-Glucose
+D-Sorbitol
+Deoxyadenosine
+Deoxycytidine
+Deoxyguanosine
+Deoxyinosine
+Deoxyuridine
+Fe2+ mitochondria
+Guanosine
+H+
+H2O H2O
+Inosine
+L-Alanine
+L-Arginine
+L-Aspartate
+L-Lactate
+Maltose C12H22O11
+Maltotriose C18H32O16
+Phosphate
+Potassium
+Sodium
+Spermidine
+Succinate
+Sulfate
+Thymidine C10H14N2O5
+Uridine
+Zinc

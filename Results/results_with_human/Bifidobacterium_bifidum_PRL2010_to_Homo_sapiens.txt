@@ -1,0 +1,108 @@
+
+--------- L-Arabinose (M_arab__L_e) ----------
+from :
+* Alpha-N-arabinofuranosidase (R_ABFA)
+	
+	H2OAlpha-L-Arabinan (3 subunits) -> L-Arabinose
+
+to :
+* L arabinoase extracellular transport (R_ARAB_Lt)
+	
+	L-Arabinose -> L-Arabinose
+
+--------- L-Lactate (M_lac__L_e) ----------
+from :
+* L LACt3 (R_L_LACt3)
+	
+	H+ + L-Lactate -> L-Lactate + H+
+
+to :
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2090)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+* Transport of Prostaglandin A2, Lactate Antiport (R_C05953t)
+	
+	L-Lactate + Prostaglandin A2 -> Prostaglandin A2 + L-Lactate
+* Transport of Prostaglandin E3, Lactate Antiport (R_C06439t)
+	
+	L-Lactate + Prostaglandin E3 -> Prostaglandin E3 + L-Lactate
+* Transport of 15-Keto-Prostaglandin F2A, Lactate Antiport (R_15KPROSTGF2t)
+	
+	L-Lactate + 15-Keto-Prostaglandin F2A -> 15-Keto-Prostaglandin F2A + L-Lactate
+* Transport of Prostaglandin J2, Lactate Antiport (R_C05957t)
+	
+	L-Lactate + Prostaglandin J2 -> Prostaglandin J2 + L-Lactate
+* Transport of 6-Oxo-Prostaglandin F1Alpha, Lactate Antiport (R_CE0955te)
+	
+	L-Lactate + 6-oxo-prostaglandin F1alpha -> 6-oxo-prostaglandin F1alpha + L-Lactate
+* Transport of 15-Deoxy-Pgd2, Antiport with Lactate (R_CE5304t)
+	
+	L-Lactate + 15-deoxy-PGD2 -> 15-deoxy-PGD2 + L-Lactate
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2083)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2127)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2128)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+* Major Facilitator(MFS) TCDB:2.A.1.13.1 (R_r2129)
+	
+	Retinoate + (R)-3-Hydroxybutanoate -> (R)-3-Hydroxybutanoate + Retinoate
+
+--------- Calcium (M_ca2_e) ----------
+from :
+* Calcium efflux  via ABC system (R_CA2abc1)
+	
+	ATPCalciumH2O -> Calcium + ADPH+Phosphate
+
+to :
+* Calcium (Ca+2) transport via diffusion (extracellular to periplasm) (R_CA2t)
+	
+	Calcium -> Calcium
+
+--------- Fe2+ (M_fe2_e) ----------
+from :
+* Quinon:iron(III) oxidoreductase (R_FERIRDe)
+	
+	Fe3+ + Ubiquinol -> Fe2+H+ + Ubiquinone
+
+to :
+* Uptake of food iron by DMT1 transporter (R_FE2DMT1)
+	
+	Fe2+H+ -> Fe2+H+
+
+--------- H+ (M_h_e) ----------
+from :
+* Quinon:iron(III) oxidoreductase (R_FERIRDe)
+	
+	Fe3+ + Ubiquinol -> Fe2+H+ + Ubiquinone
+
+to :
+* Uptake of food iron by DMT1 transporter (R_FE2DMT1)
+	
+	Fe2+H+ -> Fe2+H+
+
+--------- Sodium (M_na1_e) ----------
+from :
+* Sodium proton antiporter  HNA is 11  (R_NAt3_1)
+	
+	H+ + Sodium -> Sodium + H+
+* Sodium proton antiporter (H:NA is 2) (R_NAt3_2)
+	
+	H+ + Sodium -> Sodium + H+
+
+to :
+* Calcium / sodium antiporter (1:3), reversible (R_CAt7r)
+	
+	Sodium + Calcium -> Calcium + Sodium
+* Transport of 3-Iodo-L-Tyrosine (R_3ITYR_Lte)
+	
+	Sodium + 3-Iodo-L-tyrosine -> 3-Iodo-L-tyrosine + Sodium
+* Transport of 3, 5-Diiodo-L-Tyrosine (R_35DIODTYRte)
+	
+	Sodium + 3,5-Diiodo-L-tyrosine -> 3,5-Diiodo-L-tyrosine + Sodium
+* Sodium transport (uniport) (R_NAt)
+	
+	Sodium -> Sodium

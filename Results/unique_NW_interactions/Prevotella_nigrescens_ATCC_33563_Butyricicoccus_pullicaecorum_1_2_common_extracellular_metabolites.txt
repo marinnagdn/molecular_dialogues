@@ -1,0 +1,29 @@
+Cadmium
+Calcium
+Cu2+
+Cys-Gly
+Cytidine
+D-Glucose
+Fe2+
+Galactitol
+Guanine
+H+
+H2O
+L-Arginine
+L-Leucine
+L-Malate
+Magnesium
+Maltoheptaose
+Maltose
+Phosphate
+Potassium
+Sodium
+Spermidine
+Succinate
+Sucrose
+Sulfate
+Trehalose
+Undecaprenyl diphosphate
+Undecaprenyl phosphate
+Xanthine
+Zinc

@@ -1,0 +1,38 @@
+Cadmium
+Calcium
+Citrate
+Co2+
+Cu2+
+D-Alanine
+D-Galactose
+Ethanolamine
+Fe2+
+Fe3+
+Formate
+Guanine
+H+
+H2O
+Hypoxanthine
+L-Alanine
+L-Arginine
+L-Glutamate
+L-Methionine
+Nitrite
+Phosphate
+Potassium
+Riboflavin
+Sodium
+Spermidine
+Sulfate
+Three disacharide linked murein units (pentapeptide crosslinked tetrapeptide (A2pm-&gt;D-ala) tetrapeptide corsslinked tetrapeptide (A2pm-&gt;D-ala)) (middle of chain)
+Three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide (A2pm-&gt;D-ala) &amp; tetrapeptide corsslinked tetrapeptide (A2pm-&gt;D-ala)) (middle of chain)
+Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm-&gt;D-ala) (middle of chain)
+Two disacharide linked murein units, tetrapeptide corsslinked tetrapeptide (A2pm-&gt;D-ala) (middle of chain)
+Two linked disacharide pentapeptide and tetrapeptide murein units (uncrosslinked, middle of chain)
+Two linked disacharide pentapeptide and tripeptide murein units (uncrosslinked, middle of chain)
+Two linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)
+Two linked disacharide tetrapeptide and tripeptide murein units (uncrosslinked, middle of chain)
+Two linked disacharide tetrapeptide murein units (uncrosslinked, middle of chain)
+Uracil
+Xanthine
+Zinc

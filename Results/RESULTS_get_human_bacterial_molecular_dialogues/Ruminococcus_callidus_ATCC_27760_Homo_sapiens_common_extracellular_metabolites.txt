@@ -1,0 +1,27 @@
+Calcium
+Cys Gly C5H10N2O3S
+D-Alanine
+D-Alanyl-D-alanine
+D-Glucose
+Deoxyadenosine
+Deoxycytidine
+Fe2+ mitochondria
+H+
+H2O H2O
+L-Alanine
+L-Glutamate
+L-Lactate
+L-Lysine
+L-Proline
+Lactose C12H22O11
+Maltose C12H22O11
+Phosphate
+Potassium
+Protoheme C34H30FeN4O4
+Ribitol
+Sodium
+Spermidine
+Sucrose C12H22O11
+Tetradecanoate (n-C14:0)
+Tetradecenoate (n-C14:1)
+Uridine

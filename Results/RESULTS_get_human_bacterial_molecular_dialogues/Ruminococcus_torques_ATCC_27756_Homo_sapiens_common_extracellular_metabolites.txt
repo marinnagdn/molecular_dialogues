@@ -1,0 +1,35 @@
+Calcium
+Choline C5H14NO
+Citrate
+Cys Gly C5H10N2O3S
+Cytidine
+D-Alanine
+D-Alanyl-D-alanine
+D-Fructose
+D-Galactose
+D-Glucose
+D-Sorbitol
+Deoxycytidine
+Fe2+ mitochondria
+Glycine betaine
+H+
+H2O H2O
+Iron (Fe3+)
+L-Alanine
+L-Arginine
+L-Aspartate
+L-Glutamate
+L-Lactate
+L-Lysine
+L-Proline
+Lactose C12H22O11
+Maltotriose C18H32O16
+N-Acetyl-D-glucosamine
+Nicotinate
+Phosphate
+Potassium
+Riboflavin C17H20N4O6
+Sodium
+Succinate
+Sucrose C12H22O11
+Zinc

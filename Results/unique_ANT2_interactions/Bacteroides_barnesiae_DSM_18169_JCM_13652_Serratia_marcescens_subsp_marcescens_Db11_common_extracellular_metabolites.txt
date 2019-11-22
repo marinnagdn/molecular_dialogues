@@ -1,0 +1,44 @@
+Adenine
+Adenosine
+Cadmium
+Cu2+
+Cytidine
+Cytosine
+D-Galactose
+D-Glucose
+D-Sorbitol
+D-Xylose
+Deoxyadenosine
+Deoxycytidine
+Deoxyuridine
+Fe2+
+Fumarate
+Guanine
+Guanosine
+H+
+H2O
+Inosine
+KDO(2)-lipid IV(A)
+L-Arginine
+L-Aspartate
+L-Glutamate
+L-Malate
+Maltose
+Maltotriose
+Mn2+
+N-Acetyl-D-glucosamine
+Nickel
+Novobiocin
+Phosphate
+Phosphoethanolamine KDO(2)-lipid (A)
+Potassium
+Raffinose C18H32O16
+Rifampin
+Sodium
+Spermidine
+Succinate
+Sulfate
+Thymidine
+Uridine
+Xanthine
+Zinc

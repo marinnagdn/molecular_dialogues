@@ -1,0 +1,44 @@
+Beta-Alanine
+Calcium
+Cys Gly C5H10N2O3S
+Cytidine
+D-Alanine
+D-Alanyl-D-alanine
+D-Fructose
+D-Galactose
+D-Glucose
+D-Sorbitol
+Fe2+ mitochondria
+H+
+H2O H2O
+Iron (Fe3+)
+L-Alanine
+L-Arginine
+L-Aspartate
+L-Glutamate
+L-Glutamine
+L-Isoleucine
+L-Lactate
+L-Leucine
+L-Lysine
+L-Methionine
+L-Proline
+L-Serine
+L-Threonine
+L-Valine
+Lactose C12H22O11
+Maltotriose C18H32O16
+Nicotinate
+Phosphate
+Potassium
+Protoheme C34H30FeN4O4
+Putrescine
+Sodium
+Spermidine
+Succinate
+Sucrose C12H22O11
+Sulfate
+Taurine C2H7NO3S
+Thymidine C10H14N2O5
+Uridine
+Zinc

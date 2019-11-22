@@ -1,0 +1,33 @@
+Calcium
+Citrate
+Cys Gly C5H10N2O3S
+D-Alanine
+D-Alanyl-D-alanine
+D-Fructose
+D-Galactose
+D-Glucose
+Fe2+ mitochondria
+Formate
+H+
+H2O H2O
+Hexadecanoate (n-C16:0)
+L-Alanine
+L-Arginine
+L-Glutamate
+L-Lactate
+L-Lysine
+L-Proline
+L-Serine
+L-Threonine
+Lactose C12H22O11
+Maltose C12H22O11
+Maltotriose C18H32O16
+Nicotinamide
+Oxalate
+Phosphate
+Potassium
+Protoheme C34H30FeN4O4
+Sodium
+Succinate
+Sulfate
+Zinc

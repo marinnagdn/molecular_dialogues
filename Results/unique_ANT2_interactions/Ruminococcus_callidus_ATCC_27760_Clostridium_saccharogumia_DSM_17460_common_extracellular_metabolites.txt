@@ -1,0 +1,49 @@
+1,5-Diaminopentane
+Alpha Methyl D glucoside C7H14O6
+Arbutin
+Beta Methylglucoside C7H14O6
+Cadmium
+Calcium
+Cellobiose
+Co2+
+Cu2+
+Cys-Gly
+D-Alanine
+D-Alanyl-D-alanine
+D-Glucosamine
+D-Glucose
+Deoxyadenosine
+Fe2+
+Guanine
+H+
+H2O
+Hypoxanthine
+L-Alanine
+L-Glutamate
+L-Lysine
+Magnesium
+Meso-2,6-Diaminoheptanedioate
+Methanol
+Phosphate
+Phthiocerol dimycocerosate A (Mtb)
+Potassium
+Raffinose C18H32O16
+Sodium
+Spermidine
+Sucrose
+Three disacharide linked murein units (pentapeptide crosslinked tetrapeptide (A2pm-&gt;D-ala) tetrapeptide corsslinked tetrapeptide (A2pm-&gt;D-ala)) (middle of chain)
+Three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide (A2pm-&gt;D-ala) &amp; tetrapeptide corsslinked tetrapeptide (A2pm-&gt;D-ala)) (middle of chain)
+Three linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)
+Two disacharide linked murein units, pentapeptide corsslinked tripeptide (A2pm-&gt;A2pm) (middle of chain)
+Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm-&gt;D-ala) (middle of chain)
+Two disacharide linked murein units, tetrapeptide corsslinked tetrapeptide (A2pm-&gt;D-ala) (middle of chain)
+Two linked disacharide pentapeptide and tetrapeptide murein units (uncrosslinked, middle of chain)
+Two linked disacharide pentapeptide and tripeptide murein units (uncrosslinked, middle of chain)
+Two linked disacharide pentapeptide murein units (uncrosslinked, middle of chain)
+Two linked disacharide tetrapeptide and tripeptide murein units (uncrosslinked, middle of chain)
+Two linked disacharide tetrapeptide murein units (uncrosslinked, middle of chain)
+Undecaprenyl diphosphate
+Undecaprenyl diphosphate galactose-rhamnose-mannose-abequose-acetyl
+Undecaprenyl phosphate
+Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala
+Xanthine

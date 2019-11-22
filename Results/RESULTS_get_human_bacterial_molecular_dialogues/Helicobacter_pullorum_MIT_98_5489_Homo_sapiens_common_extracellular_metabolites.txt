@@ -1,0 +1,31 @@
+Calcium
+Citrate
+Cys Gly C5H10N2O3S
+D-Galactose
+Deoxyuridine
+Dodecanoate (n-C12:0)
+Fe2+ mitochondria
+H+
+Iron (Fe3+)
+L-Alanine
+L-Arginine
+L-Aspartate
+L-Glutamate
+L-Glutamine
+L-Isoleucine
+L-Leucine
+L-Lysine
+L-Methionine
+L-Proline
+L-Threonine
+L-Valine
+Nicotinamide
+Phosphate
+Potassium
+Protoheme C34H30FeN4O4
+Sodium
+Spermidine
+Succinate
+Sulfate
+Thymidine C10H14N2O5
+Zinc
